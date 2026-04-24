@@ -2,8 +2,7 @@
 (English)
 
 This repository contains a descriptive overview of a project that generates true random numbers from the natural radioactive decay of Potassium‑40 (KCl / Pottasche).  
-The goal is to explore physically sourced randomness and provide a transparent, non‑technical explanation of the measurement concept, data flow, and purpose of the project. 
-This description is intentionally non‑normative and does not represent a technical specification or formal documentation.  
+The goal is to explore physically sourced randomness and provide a transparent, non‑technical explanation of the measurement concept, data flow, and purpose of the project.  This description is intentionally non‑normative and does not represent a technical specification or formal documentation.  
 
 ## Overview
 - Physical randomness from K‑40 decay events  
