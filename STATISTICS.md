@@ -61,7 +61,8 @@ The expected statistical fluctuation is approximately:
 Std(F) ≈ √(2 / N)
 
 where N is the number of samples.  
-Significant deviations from this range indicate non‑Poisson behavior.
+Significant deviations from this range indicate non-Poisson behavior.
+
 
 
 
