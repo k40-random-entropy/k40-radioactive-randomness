@@ -33,8 +33,6 @@ Each delivery includes:
   - Per‑value deviation metrics  
 - Machine‑readable result files (CSV or JSON) included as part of the delivery  
 - A signed certificate of analysis suitable for documentation, audits, and trust verification
-  
-The data may not be shared with third parties without the explicit consent of the provider.
 
 ## User use cases
 
@@ -46,6 +44,8 @@ The delivered data can be used for:
 - Quality assessment of radioactive sources  
 - Auditable documentation  
 - Research and education
+
+The data may not be shared with third parties without the explicit consent of the provider.
 
 ## Technical approach (high‑level)
 
@@ -105,8 +105,6 @@ Jede Lieferung enthält:
 - Maschinenlesbare Ergebnisdateien (CSV oder JSON) als Bestandteil der Lieferung  
 - Ein signiertes Analysezertifikat, das für Dokumentation, Audits und Vertrauensnachweise verwendet werden kann
 
-Die Weitergabe der Daten an Dritte ist ohne ausdrückliche Zustimmung des Lieferanten nicht gestattet.
-
 ## Einsatzmöglichkeiten
 
 Die gelieferten Daten können verwendet werden für:
@@ -117,6 +115,8 @@ Die gelieferten Daten können verwendet werden für:
 - Qualitätsprüfung radioaktiver Quellen  
 - Auditierbare Dokumentation  
 - Forschung und Lehre
+
+Die Weitergabe der Daten an Dritte ist ohne ausdrückliche Zustimmung des Lieferanten nicht gestattet.
 
 ## Technischer Ansatz (High‑Level)
 
