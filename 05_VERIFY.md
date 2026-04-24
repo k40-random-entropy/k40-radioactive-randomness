@@ -73,7 +73,7 @@ A measurement is considered reproducible if:
 
 These criteria ensure that the dataset reflects true radioactive decay behavior.
 The histogram of CPM values must be unimodal when generated from the raw data. 
-A histogram is not included in the delivered results; it can be reproduced by the user 
+A histogram is not included in the delivered results; it can be created by the user 
 from the provided CPM values.
 
 
@@ -174,4 +174,4 @@ Eine Messung gilt als reproduzierbar, wenn:
 Das Histogramm der CPM‑Werte muss bei Erzeugung aus den Rohdaten unimodal sein.
 
 Ein Histogramm wird nicht mitgeliefert; es kann vom Nutzer jederzeit aus den bereitgestellten 
-CPM‑Werten reproduziert werden.
+CPM‑Werten erzeugt werden.
