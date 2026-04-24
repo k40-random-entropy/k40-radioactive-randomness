@@ -54,12 +54,10 @@ Interpretation:
 
 - **F ≈ 1** → ideal Poisson process  
 - **F < 1** → sub‑Poisson (over‑regular, often due to smoothing or electronics)  
-- **F > 1** → super‑Poisson (excess noise, environmental influence)<br>
+- **F > 1** → super‑Poisson (excess noise, environmental influence)<br><br>
 Note: For large datasets, the Fano factor should remain very close to 1.  
 The expected statistical fluctuation is approximately:
-
 Std(F) ≈ √(2 / N)
-
 where N is the number of samples.  
 Significant deviations from this range indicate non‑Poisson behavior.
 
