@@ -3,9 +3,7 @@
 
 This repository contains a descriptive overview of a project that generates true random numbers from the natural radioactive decay of Potassium‑40 (KCl / Pottasche).  
 The goal is to explore physically sourced randomness and provide a transparent, non‑technical explanation of the measurement concept, data flow, and purpose of the project.
-
 This description is intentionally non‑normative and does not represent a technical specification or formal documentation.  
-It may be expanded or refined later as the project evolves.
 
 ## Overview
 - Physical randomness from K‑40 decay events  
@@ -23,7 +21,6 @@ Dieses Repository enthält eine beschreibende Übersicht über ein Projekt, das 
 Ziel ist es, physikalisch erzeugte Zufälligkeit zu untersuchen und eine transparente, nicht‑technische Erklärung des Messkonzepts, des Datenflusses und des Projektzwecks zu geben.
 
 Diese Beschreibung ist bewusst nicht normativ und stellt keine technische Spezifikation oder formale Dokumentation dar.  
-Sie kann später erweitert oder präzisiert werden, sobald das Projekt weiter wächst.
 
 ## Übersicht
 - Physikalische Zufälligkeit aus K‑40‑Zerfallsereignissen  
