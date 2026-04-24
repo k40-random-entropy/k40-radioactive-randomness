@@ -175,7 +175,14 @@ Interpretation:
 - **F < 1** → sub‑Poisson (zu regelmäßige Werte, oft durch Glättung)  
 - **F > 1** → super‑Poisson (zusätzliches Rauschen, Umwelteinflüsse)
 
----
+Hinweis: Bei großen Datensätzen sollte der Fano-Faktor sehr nahe bei 1 liegen.  
+Die erwartete statistische Schwankung beträgt näherungsweise:
+
+Std(F) ≈ √(2 / N)
+
+wobei N die Anzahl der Messwerte ist.  
+Deutliche Abweichungen von diesem Bereich weisen auf ein nicht-poissonartiges Verhalten hin.
+
 
 ## 5. Entropie‑Schätzung
 
