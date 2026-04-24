@@ -19,14 +19,10 @@ All measurements rely on the natural beta decay of Potassium‑40 (K‑40). Each
 This document describes how each measurement, dataset, and entropy analysis in this project can be reproduced and independently verified.  
 The goal is to provide a transparent, auditable foundation for all results derived from K‑40 decay events.
 
----
-
 ## 1. Physical Basis
 
 All measurements rely on the natural beta decay of Potassium‑40 (K‑40).  
 Each detected decay event is treated as a discrete physical occurrence recorded by the Geiger–Müller tube.
-
----
 
 ## 2. Measurement Setup
 
