@@ -99,14 +99,11 @@ Entropy increases with the mean count rate λ.
 ## 6. Autocorrelation (Not Used)
 
 Autocorrelation can theoretically detect temporal dependencies.  
-However, because CPM values represent **independent 60‑second counting windows**,  
-short‑lag autocorrelation does **not** reflect physical correlations and provides **no useful information**.
+However, because CPM values represent independent 60‑second counting windows,  
+short‑lag autocorrelation does not reflect physical correlations and provides no useful information.
 
-Therefore:
+For this reason, autocorrelation is not computed and not used for verification.
 
-**Autocorrelation is not computed and not used in verification.**
-
----
 
 ## 7. Verification Summary
 
