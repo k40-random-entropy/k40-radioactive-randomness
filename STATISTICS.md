@@ -42,8 +42,7 @@ A histogram of CPM values over time reveals:
 - Presence of systematic drift or noise
 
 A well‑behaved K‑40 source produces a unimodal distribution centered around the mean CPM.
-
----
+Note: The histogram is not part of the raw dataset. It is generated during analysis from the CPM values and is therefore not included as a stored file in this repository.
 
 ## 4. Fano Factor
 
@@ -153,8 +152,7 @@ Ein Histogramm der CPM‑Werte zeigt:
 - systematische Drift oder Störungen
 
 Eine stabile K‑40‑Quelle erzeugt eine unimodale Verteilung um den Mittelwert.
-
----
+Hinweis: Das Histogramm ist nicht Bestandteil der Rohdaten. Es wird während der Analyse aus den CPM‑Werten erzeugt und daher nicht als separate Datei im Repository abgelegt.
 
 ## 4. Fano‑Faktor
 
