@@ -19,7 +19,6 @@ This description is intentionally non‑normative and does not represent a techn
 
 Dieses Repository enthält eine beschreibende Übersicht über ein Projekt, das echte Zufallszahlen aus dem natürlichen radioaktiven Zerfall von Kalium‑40 (KCl / Pottasche) erzeugt.  
 Ziel ist es, physikalisch erzeugte Zufälligkeit zu untersuchen und eine transparente, nicht‑technische Erklärung des Messkonzepts, des Datenflusses und des Projektzwecks zu geben.
-
 Diese Beschreibung ist bewusst nicht normativ und stellt keine technische Spezifikation oder formale Dokumentation dar.  
 
 ## Übersicht
