@@ -2,25 +2,25 @@
 
 ## Offering
 
-Customers receive physically generated integer random numbers derived from the radioactive decay of potassium‑40.  
-These random numbers are not simulated or algorithmically produced; they are entirely based on real physical measurements.
+Users receive physically generated integer random numbers derived from the radioactive decay of potassium‑40.  
+These random numbers are not simulated or algorithmically produced; they are entirely based on real physical measurement data.
 
 Two product types are available:
 
-1. Customer‑specific physical random numbers  
-   A unique sequence of integer random values is generated exclusively for the customer based on a dedicated measurement.
+1. User‑specific physical random numbers  
+   A unique sequence of integer random values is generated exclusively for the user based on a dedicated measurement.
 
 2. Random numbers matching a specified entropy level  
    A dataset of physical random numbers is delivered whose statistical entropy reaches or exceeds the requested value.
 
-## What Customers Can Order
+## What users can receive
 
-- A defined number of physical integer random values  
+- A defined set of physically generated integer random values  
 - Random numbers with a guaranteed minimum entropy  
 - A complete statistical analysis of the measurement series  
-- A formal certificate of analysis documenting methods, results, and Poisson compatibility
+- A signed certificate of analysis documenting methods, results, and Poisson compatibility
 
-## What Customers Receive
+## What users receive
 
 Each delivery includes:
 
@@ -31,10 +31,10 @@ Each delivery includes:
   - Overdispersion Z‑score  
   - Entropy estimation  
   - Per‑value deviation metrics  
-- Machine‑readable result files (CSV or JSON) as part of the delivery  
-- A certificate or report that can be used for documentation, audits, or trust verification
+- Machine‑readable result files (CSV or JSON) included as part of the delivery  
+- A signed certificate of analysis suitable for documentation, audits, and trust verification
 
-## Customer Use Cases
+## User use cases
 
 The delivered data can be used for:
 
@@ -45,19 +45,17 @@ The delivered data can be used for:
 - Auditable documentation  
 - Research and education
 
-## Technical Approach (High‑Level)
+## Technical approach (high‑level)
 
 The generation of random numbers is performed through:
 
 1. Measurement of a CPM time series from a potassium source  
 2. Validation of the measurement  
 3. Statistical analysis of the time series  
-4. Extraction or selection of integer random values according to customer requirements  
-5. Delivery of the results in the requested format together with documentation
+4. Extraction or selection of integer random values according to user requirements  
+5. Delivery of the results in the corresponding format together with documentation
 
-The internal technical implementation (Excel, scripts, tools) is abstracted and not relevant to the customer.
-
-## Repository Structure
+## Repository structure
 
 - 00_DESCRIPTION.md — Description of the offering  
 - 01_PRODUCT.md — Product definition  
@@ -73,25 +71,25 @@ The internal technical implementation (Excel, scripts, tools) is abstracted and 
 
 ## Angebot
 
-Kunden erhalten physikalisch erzeugte ganzzahlige Zufallszahlen, die aus dem radioaktiven Zerfall von Kalium‑40 gewonnen werden.  
+Nutzer erhalten physikalisch erzeugte ganzzahlige Zufallszahlen, die aus dem radioaktiven Zerfall von Kalium‑40 gewonnen werden.  
 Die Zufallszahlen werden nicht simuliert oder algorithmisch erzeugt, sondern basieren vollständig auf realen physikalischen Messdaten.
 
 Es stehen zwei Produktvarianten zur Verfügung:
 
-1. Kundenindividuell erzeugte physikalische Zufallszahlen  
-   Eine exklusive Folge ganzzahliger Zufallswerte wird für den Kunden aus einer eigenen Messreihe erzeugt.
+1. Nutzerindividuell erzeugte physikalische Zufallszahlen  
+   Eine exklusive Folge ganzzahliger Zufallswerte wird für den Nutzer aus einer eigenen Messreihe erzeugt.
 
 2. Zufallszahlen mit definierter Entropie  
    Es wird eine Menge physikalischer Zufallszahlen geliefert, deren statistische Entropie einen vorgegebenen Wert mindestens erreicht oder übertrifft.
 
-## Was Kunden bestellen können
+## Was Nutzer erhalten können
 
-- Eine bestimmte Anzahl physikalischer ganzzahliger Zufallswerte  
+- Eine definierte Menge physikalisch erzeugter ganzzahliger Zufallswerte  
 - Zufallszahlen mit garantierter Mindestentropie  
 - Eine vollständige statistische Analyse der Messreihe  
-- Ein formales Analysezertifikat, das Methoden, Ergebnisse und Poisson‑Kompatibilität dokumentiert
+- Ein signiertes Analysezertifikat, das Methoden, Ergebnisse und Poisson‑Kompatibilität dokumentiert
 
-## Was Kunden erhalten
+## Was Nutzer erhalten
 
 Jede Lieferung enthält:
 
@@ -103,7 +101,7 @@ Jede Lieferung enthält:
   - Entropie‑Abschätzung  
   - Abweichungsanalyse pro Messpunkt  
 - Maschinenlesbare Ergebnisdateien (CSV oder JSON) als Bestandteil der Lieferung  
-- Ein Zertifikat oder Bericht, der für Dokumentation, Audits und Vertrauensnachweise verwendet werden kann
+- Ein signiertes Analysezertifikat, das für Dokumentation, Audits und Vertrauensnachweise verwendet werden kann
 
 ## Einsatzmöglichkeiten
 
@@ -123,10 +121,8 @@ Die Erzeugung der Zufallszahlen erfolgt durch:
 1. Messung einer CPM‑Zeitreihe einer Kaliumquelle  
 2. Validierung der Messdaten  
 3. Statistische Analyse der Zeitreihe  
-4. Ableitung oder Auswahl ganzzahliger Zufallswerte entsprechend der Kundenanforderung  
-5. Bereitstellung der Ergebnisse im gewünschten Format zusammen mit Dokumentation
-
-Die interne technische Umsetzung (Excel, Skripte, Tools) bleibt abstrahiert und ist für den Kunden nicht relevant.
+4. Ableitung oder Auswahl ganzzahliger Zufallswerte entsprechend der Nutzeranforderung  
+5. Bereitstellung der Ergebnisse im entsprechenden Format zusammen mit Dokumentation
 
 ## Repository‑Struktur
 
