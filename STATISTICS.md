@@ -158,13 +158,16 @@ Diese Werte dienen zum Vergleich von Theorie und Messung.
 
 Ein Histogramm der CPM‑Werte zeigt:
 
-- die Verteilung der Messwerte  
-- Abweichungen vom Poisson‑Modell  
-- Stabilität des Messaufbaus  
+- die Verteilung der Messwerte
+- Abweichungen vom Poisson‑Modell
+- Stabilität des Messaufbaus
 - systematische Drift oder Störungen
 
-Eine stabile K‑40‑Quelle erzeugt eine unimodale Verteilung um den Mittelwert.<br>
-Hinweis: Das Histogramm ist nicht Bestandteil der Rohdaten. Es wird während der Analyse aus den CPM‑Werten erzeugt und daher nicht als separate Datei im Repository abgelegt.
+Das Histogramm wird in normalisierter Form ausgewertet (Summe aller Bin‑Wahrscheinlichkeiten = 1).  
+Dies ermöglicht den Vergleich zwischen Datensätzen unterschiedlicher Länge und ist Voraussetzung für die Entropieberechnung.
+
+Eine stabile K‑40‑Quelle erzeugt eine unimodale Verteilung um den Mittelwert.
+
 
 ## 4. Fano‑Faktor
 
