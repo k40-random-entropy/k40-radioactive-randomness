@@ -105,6 +105,8 @@ Jede Lieferung enthält:
 - Maschinenlesbare Ergebnisdateien (CSV oder JSON) als Bestandteil der Lieferung  
 - Ein signiertes Analysezertifikat, das für Dokumentation, Audits und Vertrauensnachweise verwendet werden kann
 
+Die Weitergabe der Daten an Dritte ist ohne ausdrückliche Zustimmung des Lieferanten nicht gestattet.
+
 ## Einsatzmöglichkeiten
 
 Die gelieferten Daten können verwendet werden für:
