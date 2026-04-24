@@ -214,12 +214,10 @@ Die Entropie steigt mit der mittleren Zählrate λ.
 ## 6. Autokorrelation (nicht verwendet)
 
 Autokorrelation kann grundsätzlich zeitliche Abhängigkeiten sichtbar machen.  
-Da CPM‑Werte jedoch **unabhängige 60‑Sekunden‑Zählintervalle** darstellen,  
-besitzt die Autokorrelation für kurze Lags **keine physikalische Aussagekraft**.
+Da CPM‑Werte jedoch unabhängige 60‑Sekunden‑Zählintervalle darstellen,  
+besitzt die Autokorrelation für kurze Lags keine physikalische Aussagekraft und liefert keinen Mehrwert.
 
-Daher:
-
-**Autokorrelation wird nicht berechnet und nicht zur Verifikation verwendet.**
+Aus diesem Grund wird die Autokorrelation nicht berechnet und nicht zur Verifikation verwendet.
 
 ---
 
