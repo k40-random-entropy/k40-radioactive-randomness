@@ -222,7 +222,10 @@ Autokorrelation dient zur Erkennung zeitlicher Abhängigkeiten:
 
 Eine gültige radioaktive Zufallsquelle zeigt **keine signifikante Autokorrelation**.
 
----
+Hinweis: Die Autokorrelationsanalyse ist optional.  
+Da die CPM‑Werte auf einem gleitenden 60‑Sekunden‑Fenster basieren, ist die Autokorrelation für kurze Lags (z. B. Lag 1–59) vollständig durch die Glättung bestimmt und hat keinen physikalischen Aussagewert.  
+Daher wird die Autokorrelation standardmäßig nicht berechnet, kann jedoch bei Vorliegen ungeglätteter CPS‑Daten sinnvoll angewendet werden.
+
 
 ## 7. Zusammenfassung der Verifikation
 
