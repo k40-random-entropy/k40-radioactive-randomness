@@ -36,13 +36,16 @@ These values are used to compare theoretical and observed fluctuations.
 
 A histogram of CPM values over time reveals:
 
-- The spread of the distribution  
-- Deviations from Poisson expectations  
-- Stability of the measurement setup  
+- The spread of the distribution
+- Deviations from Poisson expectations
+- Stability of the measurement setup
 - Presence of systematic drift or noise
 
-A well‑behaved K‑40 source produces a unimodal distribution centered around the mean CPM.<br>
-Note: The histogram is not part of the raw dataset. It is generated during analysis from the CPM values and is therefore not included as a stored file in this repository.
+The histogram is evaluated in normalized form (sum of all bin probabilities = 1).  
+This allows comparison across datasets of different lengths and enables entropy calculation.
+
+A well‑behaved K‑40 source produces a unimodal distribution centered around the mean CPM.
+
 
 ## 4. Fano Factor
 
