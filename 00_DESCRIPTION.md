@@ -1,28 +1,87 @@
-# Project Description  
-(English)
-
-This repository contains a descriptive overview of a project that generates true random numbers from the natural radioactive decay of Potassium‑40 (KCl / Pottasche).  
-The goal is to explore physically sourced randomness and provide a transparent, non‑technical explanation of the measurement concept, data flow, and purpose of the project.<br>
-This description is intentionally non‑normative and does not represent a technical specification or formal documentation.  
+# DESCRIPTION
 
 ## Overview
-- Physical randomness from K‑40 decay events  
-- Geiger counter–based detection  
-- Transformation of decay events into entropy-rich random data  
-- High‑level explanation of the measurement idea  
-- Open structure for future extensions
 
----
+This project provides physically generated integer random numbers derived from the radioactive decay of potassium‑40.  
+The randomness originates entirely from real physical measurement data and is not simulated, modeled, or algorithmically produced.
 
-# Projektbeschreibung  
-(Deutsch)
+The goal of this repository is to offer a transparent, verifiable, and auditable framework for generating, analyzing, and delivering physical randomness.  
+All results are accompanied by statistical evaluations and a signed certificate of analysis to ensure trust, reproducibility, and scientific integrity.
 
-Dieses Repository enthält eine beschreibende Übersicht über ein Projekt, das echte Zufallszahlen aus dem natürlichen radioaktiven Zerfall von Kalium‑40 (KCl / Pottasche) erzeugt.  
-Ziel ist es, physikalisch erzeugte Zufälligkeit zu untersuchen und eine transparente, nicht‑technische Erklärung des Messkonzepts, des Datenflusses und des Projektzwecks zu geben. <br>Diese Beschreibung ist bewusst nicht normativ und stellt keine technische Spezifikation oder formale Dokumentation dar.  
+## Purpose
+
+The repository documents:
+
+- how physical randomness is generated from potassium‑40  
+- how measurement data is validated  
+- how statistical properties are analyzed  
+- how users receive certified random numbers and supporting documentation  
+
+It serves as a reference for users who require trustworthy, physically grounded randomness for scientific, cryptographic, or audit‑relevant applications.
+
+## Trust and Verification
+
+To ensure transparency and reliability:
+
+- all randomness is derived from real CPM time‑series measurements  
+- statistical methods are openly documented  
+- Poisson compatibility is verified  
+- entropy levels are quantified  
+- each delivery includes a signed certificate of analysis  
+
+This structure allows users to verify the origin, quality, and statistical behavior of the delivered random numbers.
+
+## Repository Structure
+
+- 00_DESCRIPTION.md — Overview and purpose  
+- 01_PRODUCT.md — Product definition  
+- 02_SETUP.md — Measurement procedure  
+- 03_STATISTICS.md — Statistical methods  
+- 04_VERIFY.md — Source validation logic  
+- /data/raw/ — Input datasets  
+- /data/results/ — Output datasets
+
+
+
+# DESCRIPTION (Deutsch)
 
 ## Übersicht
-- Physikalische Zufälligkeit aus K‑40‑Zerfallsereignissen  
-- Erfassung mittels Geigerzähler  
-- Umwandlung der Zerfallsereignisse in entropiereiche Zufallsdaten  
-- Hochrangige Erklärung der Messidee  
-- Offene Struktur für zukünftige Erweiterungen
+
+Dieses Projekt stellt physikalisch erzeugte ganzzahlige Zufallszahlen bereit, die aus dem radioaktiven Zerfall von Kalium‑40 gewonnen werden.  
+Die Zufallszahlen basieren vollständig auf realen physikalischen Messdaten und werden weder simuliert noch algorithmisch erzeugt.
+
+Ziel dieses Repositories ist es, einen transparenten, überprüfbaren und auditierbaren Rahmen für die Erzeugung, Analyse und Bereitstellung physikalischer Zufälligkeit zu schaffen.  
+Alle Ergebnisse werden durch statistische Auswertungen und ein signiertes Analysezertifikat begleitet, um Vertrauen, Reproduzierbarkeit und wissenschaftliche Integrität sicherzustellen.
+
+## Zweck
+
+Das Repository dokumentiert:
+
+- wie physikalische Zufallszahlen aus Kalium‑40 erzeugt werden  
+- wie Messdaten validiert werden  
+- wie statistische Eigenschaften analysiert werden  
+- wie Nutzer zertifizierte Zufallszahlen und begleitende Dokumentation erhalten  
+
+Es dient als Referenz für Nutzer, die vertrauenswürdige, physikalisch begründete Zufallszahlen für wissenschaftliche, kryptographische oder auditrelevante Anwendungen benötigen.
+
+## Vertrauen und Verifikation
+
+Zur Sicherstellung von Transparenz und Zuverlässigkeit:
+
+- alle Zufallszahlen stammen aus realen CPM‑Messreihen  
+- statistische Methoden sind offen dokumentiert  
+- Poisson‑Kompatibilität wird geprüft  
+- Entropiewerte werden quantifiziert  
+- jede Lieferung enthält ein signiertes Analysezertifikat  
+
+Diese Struktur ermöglicht es Nutzern, Herkunft, Qualität und statistisches Verhalten der gelieferten Zufallszahlen nachzuvollziehen.
+
+## Repository‑Struktur
+
+- 00_DESCRIPTION.md — Übersicht und Zweck  
+- 01_PRODUCT.md — Produktdefinition  
+- 02_SETUP.md — Messaufbau  
+- 03_STATISTICS.md — Statistische Methoden  
+- 04_VERIFY.md — Quellenvalidierung  
+- /data/raw/ — Eingabedaten  
+- /data/results/ — Ausgabedaten
