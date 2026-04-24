@@ -20,8 +20,6 @@ The defining property of a Poisson process is:
 
 This relationship is used as a primary verification criterion.
 
----
-
 ## 2. CPM and Event Statistics
 
 The measurement device provides CPM (Counts per Minute) as a rolling 60‑second average.  
@@ -33,8 +31,6 @@ From CPM we derive:
 - **Standard deviation:** σ = √λ
 
 These values are used to compare theoretical and observed fluctuations.
-
----
 
 ## 3. Histogram Analysis
 
