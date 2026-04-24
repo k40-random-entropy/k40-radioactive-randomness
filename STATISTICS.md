@@ -99,7 +99,10 @@ Autocorrelation is used to detect temporal dependencies:
 
 A valid radioactive randomness source must show **no significant autocorrelation**.
 
----
+Note: Autocorrelation analysis is optional.  
+Because CPM values are based on a 60‑second moving average, short‑lag autocorrelation (e.g., lag 1–59) is dominated by the smoothing window and does not reflect physical dependencies.  
+Therefore, autocorrelation is not computed by default but may be applied to raw CPS data if available.
+
 
 ## 7. Verification Summary
 
