@@ -1,156 +1,121 @@
 # SETUP
 
-## Purpose
-
-This document describes how to perform a measurement with the GQ GMC‑500+ / GMC‑600+ Geiger counter, how to export CPM data, and how to prepare the dataset for analysis with the Excel tools in this repository.
-
-## Hardware Requirements
-
-- GQ GMC‑500+ or GMC‑600+
-- USB‑C cable
-- PC or laptop (Windows recommended)
-- Stable radioactive potassium source (e.g., potassium carbonate, potassium chloride)
-- Stable mechanical setup with fixed distance between source and detector
-
 ## Measurement Setup
 
-1. Fill a small dish with potassium salt and level the surface.
-2. Place a thin plastic or acrylic plate on top to ensure reproducible geometry.
-3. Attach two Dual‑Lock pads on the plate.
-4. Click the Geiger counter onto the pads so the detector window is centered above the salt.
-5. Connect USB‑C to the PC for power and data.
-6. Place the setup on a stable desk, away from vibrations or drafts.
+This document describes the physical measurement setup used to generate integer random numbers from the radioactive decay of potassium‑40.  
+The procedure ensures reproducibility, transparency, and consistent data quality.
+
+## Required Components
+
+- A Geiger counter capable of measuring CPM (counts per minute)  
+- A stable potassium‑40 source (e.g., potassium chloride or potassium carbonate)  
+- A fixed measurement distance between detector and source  
+- A stable, low‑noise environment without movement or shielding changes  
+- A computer for recording and exporting the CPM time series
+
+## Physical Arrangement
+
+1. The potassium‑40 source is placed at a fixed, reproducible distance from the Geiger counter.  
+2. The detector is positioned so that neither angle nor distance change during the measurement.  
+3. The environment remains undisturbed throughout the entire measurement period.  
+4. No additional shielding, objects, or materials are introduced or removed during the measurement.
 
 ## Device Configuration
 
-- Measurement mode: CPM
-- Logging interval: 1 minute
-- USB mode: Auto / Data
-- Audio: optional
-- Display: optional
-- Keep the device running continuously during the measurement period.
+- The Geiger counter is set to record CPM values in fixed time intervals.  
+- The measurement duration is chosen to ensure statistically meaningful data.  
+- All automatic filtering, smoothing, or correction functions are disabled if present.
+
+## Measurement Procedure
+
+1. The detector is powered on and allowed to stabilize.  
+2. The potassium‑40 source is placed in the defined position.  
+3. The CPM time series is recorded over the full measurement duration.  
+4. The measurement may include planned interruptions for saving and restarting the recording software.  
+   These interruptions do not affect the statistical validity of the CPM time series  
+   as long as the physical setup (detector position, source position, distance, shielding) remains unchanged.  
+   Any change in the physical setup would become immediately visible in the Poisson distribution.  
+5. After completion, the CPM data is exported in raw numerical form.
 
 ## Data Export
 
-1. Open GQ GMC Data Viewer on the PC.
-2. Connect the device via USB‑C.
-3. Select “Download Data” → “History Data”.
-4. Export as CSV.
-5. Save the file under:
+The measurement device must export:
 
-   /data/raw/YYYY-MM-DD_cpm_min.csv
+- a time‑ordered CPM series  
+- without modification, smoothing, or post‑processing  
+- in a machine‑readable format (CSV or equivalent)
 
-## Preparing the Excel Workbook
+The exported data serves as the basis for statistical analysis and random number extraction.
 
-1. Open the Excel workbook included in this repository.
-2. Import the CSV into the sheet CPM_MIN.
-3. Ensure the timestamp is in column A and CPM in column B.
-4. Do not modify column order or header names.
+## Output Provided to Users
 
-## Running the Analysis
+After processing, users receive:
 
-1. Press ALT+F8.
-2. Run the macro:
+- physically generated integer random numbers  
+- statistical evaluation of the measurement  
+- a signed certificate of analysis  
+- machine‑readable result files (CSV or JSON)
 
-   Poisson_From_CPM_MIN
-
-3. Results are written to the sheet POISSON.
-4. The output includes:
-
-- Mean CPM
-- Variance
-- Variance/Mean ratio
-- Overdispersion Z‑score
-- Poisson compatibility test
-- Per‑minute Z‑scores and p‑values
-
-## Notes
-
-- The device reports CPM as a 60‑second moving average.
-- Short‑lag autocorrelation is therefore not meaningful and is not computed.
-- Histogram analysis uses normalized bin frequencies.
-- Raw data is never modified; all analysis is derived from the CSV.
-
-## Completion
-
-The dataset is now ready for statistical analysis and verification.
+All results correspond to the measurement performed with the setup described above.
 
 
 
 # SETUP (Deutsch)
 
-## Zweck
-
-Dieses Dokument beschreibt, wie eine Messung mit dem GQ GMC‑500+ / GMC‑600+ durchgeführt wird, wie man CPM‑Daten exportiert und wie der Datensatz für die Analyse mit den Excel‑Werkzeugen dieses Repositories vorbereitet wird.
-
-## Hardware‑Voraussetzungen
-
-- GQ GMC‑500+ oder GMC‑600+
-- USB‑C‑Kabel
-- PC oder Laptop (Windows empfohlen)
-- Stabile radioaktive Kaliumquelle (z. B. Kaliumcarbonat, Kaliumchlorid)
-- Stabiler mechanischer Aufbau mit festem Abstand zwischen Quelle und Detektor
-
 ## Messaufbau
 
-1. Eine kleine Schale mit Kaliumsalz füllen und Oberfläche glätten.
-2. Eine dünne Kunststoff‑ oder Acrylplatte oben auflegen, um eine reproduzierbare Geometrie zu gewährleisten.
-3. Zwei Dual‑Lock‑Pads auf die Platte kleben.
-4. Den Geigerzähler auf die Pads klicken, sodass das Detektorfenster zentriert über dem Salz liegt.
-5. USB‑C‑Kabel für Strom und Daten an den PC anschließen.
-6. Aufbau auf einem stabilen Tisch platzieren, fern von Vibrationen oder Luftzug.
+Dieses Dokument beschreibt den physikalischen Messaufbau zur Erzeugung ganzzahliger Zufallszahlen aus dem radioaktiven Zerfall von Kalium‑40.  
+Das Verfahren stellt Reproduzierbarkeit, Transparenz und gleichbleibende Datenqualität sicher.
+
+## Benötigte Komponenten
+
+- Ein Geigerzähler, der CPM‑Werte (Counts per Minute) erfassen kann  
+- Eine stabile Kalium‑40‑Quelle (z. B. Kaliumchlorid oder Kaliumcarbonat)  
+- Ein fester Messabstand zwischen Detektor und Quelle  
+- Eine ruhige Umgebung ohne Bewegung oder Veränderung der Abschirmung  
+- Ein Computer zur Aufzeichnung und zum Export der CPM‑Zeitreihe
+
+## Physische Anordnung
+
+1. Die Kalium‑40‑Quelle wird in einem festen, reproduzierbaren Abstand zum Geigerzähler platziert.  
+2. Der Detektor wird so positioniert, dass sich weder Winkel noch Abstand während der Messung verändern.  
+3. Die Umgebung bleibt während der gesamten Messdauer unverändert.  
+4. Es werden keine zusätzlichen Gegenstände oder Materialien hinzugefügt oder entfernt.
 
 ## Gerätekonfiguration
 
-- Messmodus: CPM
-- Log‑Intervall: 1 Minute
-- USB‑Modus: Auto / Data
-- Audio: optional
-- Display: optional
-- Gerät während der gesamten Messdauer eingeschaltet lassen.
+- Der Geigerzähler wird so eingestellt, dass er CPM‑Werte in festen Zeitintervallen aufzeichnet.  
+- Die Messdauer wird so gewählt, dass statistisch aussagekräftige Daten entstehen.  
+- Automatische Filter‑, Glättungs‑ oder Korrekturfunktionen werden deaktiviert, sofern vorhanden.
+
+## Messablauf
+
+1. Der Detektor wird eingeschaltet und stabilisiert sich.  
+2. Die Kalium‑40‑Quelle wird in die definierte Position gebracht.  
+3. Die CPM‑Zeitreihe wird über die gesamte Messdauer aufgezeichnet.  
+4. Die Messung kann geplante Unterbrechungen zum Speichern und Neustarten der Aufzeichnungssoftware enthalten.  
+   Diese Unterbrechungen beeinträchtigen die statistische Gültigkeit der CPM‑Zeitreihe nicht,  
+   solange der physische Aufbau (Detektorposition, Quellenposition, Abstand, Abschirmung) unverändert bleibt.  
+   Änderungen am Aufbau würden sich unmittelbar in der Poisson‑Verteilung bemerkbar machen.  
+5. Nach Abschluss wird die CPM‑Zeitreihe unverändert exportiert.
 
 ## Datenexport
 
-1. GQ GMC Data Viewer auf dem PC öffnen.
-2. Gerät per USB‑C verbinden.
-3. „Download Data“ → „History Data“ auswählen.
-4. Als CSV exportieren.
-5. Datei speichern unter:
+Das Messgerät muss exportieren:
 
-   /data/raw/YYYY-MM-DD_cpm_min.csv
+- eine zeitlich geordnete CPM‑Serie  
+- ohne Modifikation, Glättung oder Nachbearbeitung  
+- in einem maschinenlesbaren Format (CSV oder gleichwertig)
 
-## Excel‑Vorbereitung
+Die exportierten Daten bilden die Grundlage für die statistische Analyse und die Ableitung der Zufallszahlen.
 
-1. Die Excel‑Arbeitsmappe aus diesem Repository öffnen.
-2. CSV in das Tabellenblatt CPM_MIN importieren.
-3. Sicherstellen, dass der Zeitstempel in Spalte A und CPM in Spalte B steht.
-4. Spaltenreihenfolge und Überschriften nicht ändern.
+## Bereitgestellte Ergebnisse
 
-## Analyse ausführen
+Nach der Verarbeitung erhalten Nutzer:
 
-1. ALT+F8 drücken.
-2. Makro ausführen:
+- physikalisch erzeugte ganzzahlige Zufallszahlen  
+- eine statistische Auswertung der Messreihe  
+- ein signiertes Analysezertifikat  
+- maschinenlesbare Ergebnisdateien (CSV oder JSON)
 
-   Poisson_From_CPM_MIN
-
-3. Ergebnisse erscheinen im Blatt POISSON.
-4. Die Ausgabe enthält:
-
-- Durchschnittliche CPM
-- Varianz
-- Varianz/Mittelwert
-- Overdispersion‑Z‑Score
-- Poisson‑Kompatibilitätstest
-- Z‑Scores und p‑Werte pro Minute
-
-## Hinweise
-
-- Das Gerät liefert CPM als gleitenden 60‑Sekunden‑Durchschnitt.
-- Autokorrelation für kurze Lags ist daher nicht aussagekräftig und wird nicht berechnet.
-- Histogramme werden auf Basis normalisierter Bin‑Wahrscheinlichkeiten ausgewertet.
-- Rohdaten werden nie verändert; alle Analysen basieren auf der CSV.
-
-## Abschluss
-
-Der Datensatz ist nun bereit für statistische Analyse und Verifikation.
-
+Alle Ergebnisse entsprechen der Messung, die mit dem oben beschriebenen Aufbau durchgeführt wurde.
