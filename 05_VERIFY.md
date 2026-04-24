@@ -169,7 +169,8 @@ Eine Messung gilt als reproduzierbar, wenn:
 - Histogramm unimodal
 - Entropie nachvollziehbar
 - Keine Drift
-- Ergebnisse reproduzierbar
+- Ergebnisse reproduzierbar  
+
 Das Histogramm der CPM‑Werte muss bei Erzeugung aus den Rohdaten unimodal sein.
 
 Ein Histogramm wird nicht mitgeliefert; es kann vom Nutzer jederzeit aus den bereitgestellten 
