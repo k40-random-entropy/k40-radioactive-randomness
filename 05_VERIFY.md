@@ -72,6 +72,10 @@ A measurement is considered reproducible if:
 - no systematic drift is observed
 
 These criteria ensure that the dataset reflects true radioactive decay behavior.
+The histogram of CPM values must be unimodal when generated from the raw data. 
+A histogram is not included in the delivered results; it can be reproduced by the user 
+from the provided CPM values.
+
 
 ## 6. Audit Checklist
 - Raw data available
