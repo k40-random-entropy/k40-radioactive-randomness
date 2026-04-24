@@ -33,6 +33,8 @@ Each delivery includes:
   - Per‑value deviation metrics  
 - Machine‑readable result files (CSV or JSON) included as part of the delivery  
 - A signed certificate of analysis suitable for documentation, audits, and trust verification
+  
+The data may not be shared with third parties without the explicit consent of the provider.
 
 ## User use cases
 
