@@ -27,7 +27,6 @@ The goal is to establish a transparent, empirical, and audit‑ready foundation 
 
 All delivered datasets include a CSV file, a JSON metadata file, and a Minisign signature for integrity verification.
 
-Entropy amounts above 512 bit are available on request.
 
 Contact: **k40-random-entropy@proton.me**
 
@@ -60,7 +59,6 @@ Ziel ist eine transparente, empirische und auditierbare Grundlage für aus radio
 
 Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatendatei und eine Minisign‑Signatur zur Integritätsprüfung.
 
-Entropiemengen über 512 Bit sind auf Anfrage verfügbar.
 
 Kontakt: **k40-random-entropy@proton.me**
 <!-- updated 2026-04-25 -->
