@@ -26,6 +26,21 @@ These services provide CPM time series and statistical analysis based on measure
 
 ---
 
+# 2. Class: Entropy Deliveries (Entropy Package – €550)
+
+These services deliver guaranteed minimum entropy derived from radioactive decay, including full statistical analysis, JSON structure, and digital signature.
+
+| Package | Delivered Entropy | Price |
+|---------|-------------------|--------|
+| **Entropy 128** | ≥ 128 bit | **€180** |
+| **Entropy 256** | ≥ 256 bit | **€260** |
+| **Entropy 312** | ≥ 312 bit | **€300** |
+| **Entropy 512** | ≥ 512 bit | **€380** |
+
+**Entropy amounts above 512 bit are available on request.**
+
+---
+
 # Preisliste – Radioaktivitätsmessungen & Entropie‑Lieferungen
 
 Dieser Service bietet zwei unterschiedliche Klassen von Lieferungen.  
@@ -64,6 +79,10 @@ Diese Leistungen liefern garantierte Mindestentropie aus radioaktivem Zerfall, i
 | **Entropy 256** | ≥ 256 Bit | **260 €** |
 | **Entropy 312** | ≥ 312 Bit | **300 €** |
 | **Entropy 512** | ≥ 512 Bit | **380 €** |
+
+**Entropiemengen über 512 Bit sind auf Anfrage verfügbar.**
+
+
 
 
 
