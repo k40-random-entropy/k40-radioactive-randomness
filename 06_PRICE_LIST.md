@@ -29,9 +29,7 @@ measurements performed with a GMC‑500+.
 
 | Package | Content | Price |
 |---------|---------|--------|
-| **Basic Analysis Package** | Poisson variance, histogram, entropy | **€15** |
-| **Pro Analysis Package** | Trend analysis & outlier detection | **€29** |
-| **Full Analysis Package** | Complete scientific documentation | **€49** |
+| **Basic Analysis Package** | Includes the following statistical metrics: Average CPM (λ) 17.8, Variance 29.1, Variance‑to‑Mean Ratio 1.632958801, Overdispersion Z‑Score 1.342708382, Poisson Test: OK, Total Entropy 28.5 | Included |
 
 ---
 
