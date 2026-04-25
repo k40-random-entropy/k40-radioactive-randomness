@@ -1,9 +1,11 @@
-# Order Form – Radioactivity Measurement Service
+# Order Form – Radioactivity Measurement & Entropy Delivery Service
 
-Please copy this form into an email and send it to:
+This service provides two classes of deliverables:
 
-**contact@example.com**  
-(Please adjust the address)
+1. Single Measurements  
+2. Entropy Deliveries
+
+Please fill out this form and send it to: **k40-random-entropy@proton.me**
 
 ---
 
@@ -20,36 +22,63 @@ Please copy this form into an email and send it to:
 Please select:
 
 ### Single Measurements
+
 - [ ] 10 minutes – €9  
 - [ ] 30 minutes – €19  
 - [ ] 60 minutes – €29  
 
 ### Measurement Series
-- [ ] 10 × 10 minutes – €79  
-- [ ] 10 × 60 minutes – €199  
 
-### Analysis Packages
-- [ ] Basic Analysis Package – €15  
-- [ ] Pro Analysis Package – €29  
-- [ ] Full Analysis Package – €49  
+- [ ] 10 × 10‑minute series – €79  
+- [ ] 10 × 60‑minute series – €199  
 
-### Additional Services
-- [ ] Excel Report – €9  
-- [ ] PDF Report – €12  
+### Entropy Packages
 
----
-
-## 3. Sample Information (optional)
-
-- **Type of sample:**  
-- **Additional notes:**  
+- [ ] Entropy 128 – €15  
+- [ ] Entropy 256 – €25  
+- [ ] Entropy 312 – €29  
+- [ ] Entropy 512 – €39  
 
 ---
 
-## 4. Confirmation
+# Bestellformular – Radioaktivitätsmessungen & Entropielieferungen
 
-By submitting this form, I confirm that I have read the price list and that I
-wish to order the selected services.
+Dieser Service bietet zwei Klassen von Lieferungen:
 
-**Date:**  
-**Signature (not required for email):**
+1. Einzelmessungen  
+2. Entropielieferungen
+
+Bitte füllen Sie dieses Formular aus und senden Sie es an: **k40-random-entropy@proton.me**
+
+---
+
+## 1. Kundendaten
+
+- **Name:**  
+- **E‑Mail:**  
+- **Adresse (optional):**  
+
+---
+
+## 2. Gewünschte Leistung
+
+Bitte auswählen:
+
+### Einzelmessungen
+
+- [ ] 10‑Minuten‑Messung – 9 €  
+- [ ] 30‑Minuten‑Messung – 19 €  
+- [ ] 60‑Minuten‑Messung – 29 €  
+
+### Messreihen
+
+- [ ] 10 × 10‑Minuten‑Reihe – 79 €  
+- [ ] 10 × 60‑Minuten‑Reihe – 199 €  
+
+### Entropie‑Pakete
+
+- [ ] Entropy 128 – 15 €  
+- [ ] Entropy 256 – 25 €  
+- [ ] Entropy 312 – 29 €  
+- [ ] Entropy 512 – 39 €  
+
