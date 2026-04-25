@@ -1,33 +1,50 @@
-# Price List – Radioactivity Measurement Service (GMC‑500+)
+# Price List – Radioactivity Measurement & Entropy Delivery Service
 
-## 1. Single Measurements
+This service provides two distinct classes of deliverables.  
+All deliveries include data files and a digital signature for integrity verification.
+
+---
+
+# 1. Class: Single Measurements
+
+These services provide CPM time series and statistical analysis based on
+measurements performed with a GMC‑500+.
+
+## Single Measurements
 
 | Service | Description | Price |
 |---------|-------------|--------|
-| **Single Measurement (10 minutes)** | CPM time series, basic statistics | **€9** |
-| **Single Measurement (30 minutes)** | Includes histogram and entropy analysis | **€19** |
-| **Single Measurement (60 minutes)** | Full analysis incl. variance, entropy, PDF report | **€29** |
+| **10‑minute measurement** | CPM time series + statistical analysis | **€9** |
+| **30‑minute measurement** | Includes histogram and entropy analysis | **€19** |
+| **60‑minute measurement** | Full analysis incl. variance, entropy, PDF report | **€29** |
 
-## 2. Measurement Series
+## Measurement Series
 
 | Service | Description | Price |
 |---------|-------------|--------|
-| **Series (10 × 10 minutes)** | For comparative studies | **€79** |
-| **Series (10 × 60 minutes)** | For long‑term statistical analysis | **€199** |
+| **10 × 10‑minute series** | Comparative studies | **€79** |
+| **10 × 60‑minute series** | Long‑term statistical analysis | **€199** |
 
-## 3. Analysis Packages
+## Analysis Packages
 
 | Package | Content | Price |
 |---------|---------|--------|
 | **Basic Analysis Package** | Poisson variance, histogram, entropy | **€15** |
-| **Pro Analysis Package** | Adds trend analysis and outlier detection | **€29** |
+| **Pro Analysis Package** | Trend analysis & outlier detection | **€29** |
 | **Full Analysis Package** | Complete scientific documentation | **€49** |
 
-## 4. Additional Services
+---
 
-| Service | Description | Price |
-|---------|-------------|--------|
-| **Raw Data Export (CSV)** | Unmodified measurement data | **€0** |
-| **Excel Report** | Automatically generated analysis report | **€9** |
-| **PDF Report** | Formatted measurement protocol | **€12** |
+# 2. Class: Entropy Deliveries
 
+These services provide data sequences with a **guaranteed minimum Shannon entropy**.
+All statistical metrics and data files are included.
+
+## Entropy Packages
+
+| Package | Delivered Entropy | Price |
+|---------|-------------------|--------|
+| **Entropy 128** | ≥ 128 bit | **€15** |
+| **Entropy 256** | ≥ 256 bit | **€25** |
+| **Entropy 312** | ≥ 312 bit | **€29** |
+| **Entropy 512** | ≥ 512 bit | **€39** |
