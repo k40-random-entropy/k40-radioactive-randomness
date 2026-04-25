@@ -24,21 +24,21 @@ Please select:
 
 ### Single Measurements
 
-- [ ] 10 minutes – €9  
-- [ ] 30 minutes – €19  
-- [ ] 60 minutes – €29  
+- [ ] 10 minutes – €120  
+- [ ] 30 minutes – €180  
+- [ ] 60 minutes – €240  
 
 ### Measurement Series
 
-- [ ] 10 × 10‑minute series – €79  
-- [ ] 10 × 60‑minute series – €199  
+- [ ] 10 × 10‑minute series – €320  
+- [ ] 10 × 60‑minute series – €480  
 
 ### Entropy Packages
 
-- [ ] Entropy 128 – €15  
-- [ ] Entropy 256 – €25  
-- [ ] Entropy 312 – €29  
-- [ ] Entropy 512 – €39  
+- [ ] Entropy 128 – €180  
+- [ ] Entropy 256 – €260  
+- [ ] Entropy 312 – €300  
+- [ ] Entropy 512 – €380  
 
 ---
 
@@ -92,21 +92,21 @@ Bitte auswählen:
 
 ### Einzelmessungen
 
-- [ ] 10‑Minuten‑Messung – 9 €  
-- [ ] 30‑Minuten‑Messung – 19 €  
-- [ ] 60‑Minuten‑Messung – 29 €  
+- [ ] 10‑Minuten‑Messung – 120 €  
+- [ ] 30‑Minuten‑Messung – 180 €  
+- [ ] 60‑Minuten‑Messung – 240 €  
 
 ### Messreihen
 
-- [ ] 10 × 10‑Minuten‑Reihe – 79 €  
-- [ ] 10 × 60‑Minuten‑Reihe – 199 €  
+- [ ] 10 × 10‑Minuten‑Reihe – 320 €  
+- [ ] 10 × 60‑Minuten‑Reihe – 480 €  
 
 ### Entropie‑Pakete
 
-- [ ] Entropy 128 – 15 €  
-- [ ] Entropy 256 – 25 €  
-- [ ] Entropy 312 – 29 €  
-- [ ] Entropy 512 – 39 €  
+- [ ] Entropy 128 – 180 €  
+- [ ] Entropy 256 – 260 €  
+- [ ] Entropy 312 – 300 €  
+- [ ] Entropy 512 – 380 €  
 
 ---
 
@@ -130,6 +130,7 @@ Mit Absenden dieser Bestellung bestätigen Sie:
 - [ ] Ich verlange die sofortige Ausführung der Dienstleistung und bestätige das vorzeitige Erlöschen des Widerrufsrechts.
 
 (Diese Widerrufsklausel basiert auf Art. 16 lit. m der Richtlinie 2011/83/EU sowie deren nationaler Umsetzung, insbesondere § 356 Abs. 5 BGB.)
+
 
 
 
