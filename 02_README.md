@@ -3,7 +3,7 @@
 ## Overview
 
 This project investigates the natural radioactivity of potassium‑40 (K‑40) as a source of physical randomness.  
-Using household potassium compounds and a Geiger counter, the project documents measurement routines, statistical behavior, and the reproducibility of count‑based entropy.
+Using household potassium compounds and a Geiger counter, the project documents measurement routines and statistical behavior of count‑rate‑based entropy.
 
 Each detected beta decay from potassium‑40 is treated as a discrete physical event.  
 The goal is to establish a transparent, empirical foundation for randomness derived from radioactive decay.
@@ -35,7 +35,7 @@ The repository provides:
 ## Überblick
 
 Dieses Projekt untersucht die natürliche Radioaktivität von Kalium‑40 (K‑40) als Quelle physikalischer Zufallszahlen.  
-Unter Verwendung haushaltsüblicher Kaliumverbindungen und eines Geigerzählers dokumentiert das Projekt Messabläufe, statistisches Verhalten und die Reproduzierbarkeit zählratenbasierter Entropie.
+Mit haushaltsüblichen Kaliumverbindungen und einem Geigerzähler werden Messabläufe und statistisches Verhalten der zählratenbasierten Entropie dokumentiert.
 
 Jeder detektierte Betazerfall von Kalium‑40 wird als diskretes physikalisches Ereignis behandelt.  
 Ziel ist es, eine transparente, empirische Grundlage für aus radioaktivem Zerfall abgeleitete Zufälligkeit zu schaffen.
@@ -59,5 +59,6 @@ Das Repository stellt bereit:
 - **04_VERIFY.md** — Quellenvalidierung und Vertrauensmechanismen  
 - **/data/raw/** — Eingabedaten (rohe CPM‑Messungen)  
 - **/data/results/** — Ausgabedaten (verarbeitete Ergebnisse)
+
 
 
