@@ -10,7 +10,7 @@ The goal is to validate the randomness, stability, and entropy of the measured d
 Radioactive decay is a stochastic process governed by the Poisson distribution.  
 For a given time interval, the number of detected decay events follows:
 
-P(k; λ) = (λ^k * e^(−λ)) / k!
+P(k; λ) = (λ^k · e^(−λ)) / k!
 
 Where:
 
@@ -131,7 +131,7 @@ Ziel ist die Validierung der Zufälligkeit, Stabilität und Entropie der gemesse
 Radioaktiver Zerfall folgt einem Poisson‑Prozess.  
 Für ein Zeitintervall gilt:
 
-P(k; λ) = (λ^k * e^(−λ)) / k!
+P(k; λ) = (λ^k · e^(−λ)) / k!
 
 Dabei:
 
