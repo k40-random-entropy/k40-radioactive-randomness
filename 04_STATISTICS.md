@@ -32,7 +32,7 @@ Each CPM value is therefore **one statistical sample** from the underlying Poiss
 
 From CPM we derive:
 
-- Mean count rate: λ = CPM  
+- Mean count rate: λ = average(CPM)  
 - Event rate per second: CPS = CPM / 60  
 - Expected variance: Var = λ  
 - Standard deviation: σ = √λ  
@@ -104,6 +104,7 @@ short‑lag autocorrelation does not reflect physical correlations and provides 
 
 For this reason, autocorrelation is not computed and not used for verification.
 
+---
 
 ## 7. Verification Summary
 
@@ -111,6 +112,7 @@ A dataset is statistically valid if:
 
 - mean and variance match Poisson expectations  
 - the Fano factor is close to 1  
+- the overdispersion Z‑score is within expected statistical limits  
 - the histogram is stable and unimodal  
 - entropy per sample is consistent  
 - no systematic drift is observed  
@@ -153,7 +155,7 @@ Jeder CPM‑Wert ist somit **eine Stichprobe** aus dem zugrunde liegenden Poisso
 
 Daraus ergeben sich:
 
-- Mittlere Zählrate: λ = CPM  
+- Mittlere Zählrate: λ = Durchschnitt(CPM)  
 - Ereignisse pro Sekunde: CPS = CPM / 60  
 - Erwartete Varianz: Var = λ  
 - Standardabweichung: σ = √λ  
@@ -227,8 +229,13 @@ Ein Datensatz gilt als statistisch valide, wenn:
 
 - Mittelwert und Varianz dem Poisson‑Modell entsprechen  
 - der Fano‑Faktor nahe 1 liegt  
+- der Overdispersion‑Z‑Score innerhalb der erwarteten statistischen Grenzen liegt  
 - das Histogramm stabil und unimodal ist  
 - die Entropie pro Stichprobe konsistent ist  
 - keine systematische Drift erkennbar ist  
 
 Diese Kriterien gewährleisten, dass die Daten echten radioaktiven Zerfall widerspiegeln.
+
+
+Diese Kriterien gewährleisten, dass die Daten echten radioaktiven Zerfall widerspiegeln.
+
