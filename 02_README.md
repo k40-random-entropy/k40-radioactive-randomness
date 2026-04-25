@@ -1,4 +1,5 @@
-Physikalische Zufallszahlen aus K-40 Beta-Zerfall (Poisson-Verteilung, Entropieanalyse)
+Physical random numbers from K‑40 beta decay (Poisson statistics, entropy analysis)<br>
+Physikalische Zufallszahlen aus dem Beta‑Zerfall von K‑40 (Poisson‑Statistik, Entropieanalyse)
 
 # K‑40 Radioactive Randomness
 
