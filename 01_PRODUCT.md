@@ -30,7 +30,6 @@ Each delivery includes:
   - Variance and Fano‑factor analysis  
   - Overdispersion Z‑score  
   - Entropy estimation  
-  - Per‑value deviation metrics  
 - Machine‑readable result files (CSV or JSON)  
 - A signed certificate of analysis suitable for documentation, audits, and trust verification
 
@@ -101,7 +100,6 @@ Jede Lieferung enthält:
   - Varianz‑ und Fano‑Faktor‑Analyse  
   - Overdispersion‑Z‑Score  
   - Entropie‑Abschätzung  
-  - Abweichungsanalyse pro Messpunkt  
 - Maschinenlesbare Ergebnisdateien (CSV oder JSON)  
 - Ein signiertes Analysezertifikat für Dokumentation, Audits und Vertrauensnachweise
 
@@ -137,4 +135,5 @@ Die Erzeugung der Zufallszahlen erfolgt durch:
 - 04_VERIFY.md — Quellenvalidierung  
 - /data/raw/ — Eingabedaten  
 - /data/results/ — Ausgabedaten
+
 
