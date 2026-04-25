@@ -13,8 +13,8 @@ The goal is to establish a transparent, empirical, and audit‑ready foundation 
 ## Repository Structure
 
 - **00_DESCRIPTION.md** — High‑level description of the project  
-- **01_DEVICE.md** — Device characteristics and measurement constraints  
-- **02_MEASUREMENT.md** — Measurement procedure and data acquisition  
+- **01_PRODUCT.md** — Product definition and deliverables  
+- **02_README.md** — Repository overview (this file)  
 - **03_SETUP.md** — Setup instructions and environment requirements  
 - **04_STATISTICS.md** — Statistical methods and analysis logic  
 - **05_VERIFY.md** — Verification and reproducibility criteria  
@@ -46,8 +46,8 @@ Ziel ist eine transparente, empirische und auditierbare Grundlage für aus radio
 ## Repository‑Struktur
 
 - **00_DESCRIPTION.md** — Beschreibung des Projekts  
-- **01_DEVICE.md** — Geräteeigenschaften und Messgrenzen  
-- **02_MEASUREMENT.md** — Messprozedur und Datenerfassung  
+- **01_PRODUCT.md** — Produktdefinition und Lieferumfang  
+- **02_README.md** — Übersicht über das Repository (diese Datei)  
 - **03_SETUP.md** — Setup‑Anleitung und Umgebungsanforderungen  
 - **04_STATISTICS.md** — Statistische Methoden und Analyseverfahren  
 - **05_VERIFY.md** — Verifikation und Reproduzierbarkeitskriterien  
@@ -61,6 +61,7 @@ Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatenda
 Entropiemengen über 512 Bit sind auf Anfrage verfügbar.
 
 Kontakt: **k40-random-entropy@proton.me**
+
 
 
 
