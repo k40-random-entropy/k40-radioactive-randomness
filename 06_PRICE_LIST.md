@@ -1,117 +1,70 @@
 # Price List – Radioactivity Measurement & Entropy Delivery Service
 
-This service provides two classes of deliverables:
-
-1. Single Measurements  
-2. Entropy Deliveries
-
-
- All data is generated from
-CPM time series measured with a GMC‑500+, and every delivery includes statistical
-analysis and three files:
-
-- CSV data file  
-- JSON metadata file  
-- Minisign signature file (for integrity verification)
-
-### Included analysis (for all deliveries)
-The statistical analysis is described in detail in the file **04_STATISTICS.md**.
+This service provides two distinct classes of deliverables.  
+All deliveries include three files: a CSV data file, a JSON metadata file, and a minisign signature file for integrity verification.
 
 ---
 
-# 1. Class: Single Measurements
+# 1. Class: Single Measurements (Basic Package – €350)
 
-These services provide CPM time series and statistical analysis based on
-measurements performed with a GMC‑500+.
+These services provide CPM time series and statistical analysis based on measurements performed with a GMC‑500+.
 
 ## Single Measurements
 
 | Service | Description | Price |
-|---------|-------------|--------|
-| **10‑minute measurement** | CPM time series + statistical analysis | **€9** |
-| **30‑minute measurement** | CPM time series + statistical analysis | **€19** |
-| **60‑minute measurement** | CPM time series + statistical analysis | **€29** |
+|--------|-------------|-------|
+| **10‑minute measurement** | CPM time series + statistical analysis | **€120** |
+| **30‑minute measurement** | CPM time series + statistical analysis | **€180** |
+| **60‑minute measurement** | CPM time series + statistical analysis | **€240** |
 
 ## Measurement Series
 
 | Service | Description | Price |
-|---------|-------------|--------|
-| **10 × 10‑minute series** | Comparative studies | **€79** |
-| **10 × 60‑minute series** | Long‑term statistical analysis | **€199** |
+|--------|-------------|-------|
+| **10 × 10‑minute series** | Comparative studies | **€320** |
+| **10 × 60‑minute series** | Long‑term statistical analysis | **€480** |
 
 ---
 
-# 2. Class: Entropy Deliveries
+# Preisliste – Radioaktivitätsmessungen & Entropie‑Lieferungen
 
-These services provide data sequences with a **guaranteed minimum Shannon entropy**.
-All statistical metrics and data files are included.
-
-## Entropy Packages
-
-| Package | Delivered Entropy | Price |
-|---------|-------------------|--------|
-| **Entropy 128** | ≥ 128 bit | **€15** |
-| **Entropy 256** | ≥ 256 bit | **€25** |
-| **Entropy 312** | ≥ 312 bit | **€29** |
-| **Entropy 512** | ≥ 512 bit | **€39** |
+Dieser Service bietet zwei unterschiedliche Klassen von Lieferungen.  
+Alle Lieferungen enthalten drei Dateien: eine CSV‑Datendatei, eine JSON‑Metadatendatei und eine Minisign‑Signaturdatei zur Integritätsprüfung.
 
 ---
 
-# Preisliste – Radioaktivitätsmessungen & Entropielieferungen
+# 1. Klasse: Einzelmessungen (Basic Package – 350 €)
 
-Dieser Service bietet zwei Klassen von Lieferungen:
-
-1. Einzelmessungen  
-2. Entropielieferungen
-
- Alle Daten werden aus
-CPM‑Zeitreihen gewonnen, die mit einem GMC‑500+ gemessen wurden. Jede Lieferung
-enthält eine statistische Analyse sowie drei Dateien:
-
-- CSV‑Datendatei  
-- JSON‑Metadatendatei  
-- Minisign‑Signaturdatei (zur Integritätsprüfung)
-
-### Enthaltene Analyse (für alle Lieferungen)
-Die statistische Analyse ist ausführlich in der Datei **04_STATISTICS.md** beschrieben.
-
----
-
-# 1. Klasse: Einzelmessungen
-
-Diese Leistungen liefern CPM‑Zeitreihen und statistische Auswertungen basierend
-auf Messungen mit dem GMC‑500+.
+Diese Leistungen liefern CPM‑Zeitreihen und statistische Auswertungen basierend auf Messungen mit einem GMC‑500+.
 
 ## Einzelmessungen
 
-| Leistung | Beschreibung | Preis |
-|----------|--------------|--------|
-| **10‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **9 €** |
-| **30‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **19 €** |
-| **60‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **29 €** |
+| Service | Beschreibung | Preis |
+|--------|--------------|--------|
+| **10‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **120 €** |
+| **30‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **180 €** |
+| **60‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **240 €** |
 
 ## Messreihen
 
-| Leistung | Beschreibung | Preis |
-|----------|--------------|--------|
-| **10 × 10‑Minuten‑Reihe** | Vergleichsstudien | **79 €** |
-| **10 × 60‑Minuten‑Reihe** | Langzeit‑Statistikanalyse | **199 €** |
+| Service | Beschreibung | Preis |
+|--------|--------------|--------|
+| **10 × 10‑Minuten‑Messungen** | Vergleichsstudien | **320 €** |
+| **10 × 60‑Minuten‑Messungen** | Langzeit‑Statistik | **480 €** |
 
 ---
 
-# 2. Klasse: Entropielieferungen
+# 2. Klasse: Entropie‑Lieferungen (Entropy Package – 550 €)
 
-Diese Leistungen liefern Datenfolgen mit einer **garantierten minimalen Shannon‑Entropie**.
-Alle statistischen Kennzahlen und Dateien sind enthalten.
+Diese Leistungen liefern garantierte Mindestentropie aus radioaktivem Zerfall, inklusive vollständiger statistischer Analyse, JSON‑Struktur und digitaler Signatur.
 
-## Entropie‑Pakete
+| Package | Gelieferte Entropie | Preis |
+|---------|----------------------|--------|
+| **Entropy 128** | ≥ 128 Bit | **180 €** |
+| **Entropy 256** | ≥ 256 Bit | **260 €** |
+| **Entropy 312** | ≥ 312 Bit | **300 €** |
+| **Entropy 512** | ≥ 512 Bit | **380 €** |
 
-| Paket | Gelieferte Entropie | Preis |
-|--------|----------------------|--------|
-| **Entropy 128** | ≥ 128 Bit | **15 €** |
-| **Entropy 256** | ≥ 256 Bit | **25 €** |
-| **Entropy 312** | ≥ 312 Bit | **29 €** |
-| **Entropy 512** | ≥ 512 Bit | **39 €** |
 
 
 
