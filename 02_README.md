@@ -1,3 +1,5 @@
+Physikalische Zufallszahlen aus K-40 Beta-Zerfall (Poisson-Verteilung, Entropieanalyse)
+
 # K‑40 Radioactive Randomness
 
 ## Overview
@@ -61,6 +63,7 @@ Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatenda
 Entropiemengen über 512 Bit sind auf Anfrage verfügbar.
 
 Kontakt: **k40-random-entropy@proton.me**
+<!-- updated 2026-04-25 -->
 
 
 
