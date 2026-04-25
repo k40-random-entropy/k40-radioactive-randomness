@@ -1,7 +1,7 @@
 # Price List – Radioactivity Measurement & Entropy Delivery Service
 
 This service provides two distinct classes of deliverables.  
-All deliveries include three files: a CSV data file, a JSON metadata file, and a minisign signature file for integrity verification.
+All deliveries include three files: a CSV data file, a JSON metadata file, and a Minisign signature file for integrity verification.
 
 ---
 
@@ -32,12 +32,12 @@ These services deliver guaranteed minimum entropy derived from radioactive decay
 
 | Package | Delivered Entropy | Price |
 |---------|-------------------|--------|
-| **Entropy 128** | ≥ 128 bit | **€180** |
-| **Entropy 256** | ≥ 256 bit | **€260** |
-| **Entropy 312** | ≥ 312 bit | **€300** |
-| **Entropy 512** | ≥ 512 bit | **€380** |
+| **Entropy 128** | ≥ 128 bit | **€180** |
+| **Entropy 256** | ≥ 256 bit | **€260** |
+| **Entropy 312** | ≥ 312 bit | **€300** |
+| **Entropy 512** | ≥ 512 bit | **€380** |
 
-**Entropy amounts above 512 bit are available on request.**
+**Entropy amounts above 512 bit are available on request.**
 
 ---
 
@@ -75,12 +75,13 @@ Diese Leistungen liefern garantierte Mindestentropie aus radioaktivem Zerfall, i
 
 | Package | Gelieferte Entropie | Preis |
 |---------|----------------------|--------|
-| **Entropy 128** | ≥ 128 Bit | **180 €** |
-| **Entropy 256** | ≥ 256 Bit | **260 €** |
-| **Entropy 312** | ≥ 312 Bit | **300 €** |
-| **Entropy 512** | ≥ 512 Bit | **380 €** |
+| **Entropy 128** | ≥ 128 Bit | **180 €** |
+| **Entropy 256** | ≥ 256 Bit | **260 €** |
+| **Entropy 312** | ≥ 312 Bit | **300 €** |
+| **Entropy 512** | ≥ 512 Bit | **380 €** |
 
-**Entropiemengen über 512 Bit sind auf Anfrage verfügbar.**
+**Entropiemengen über 512 Bit sind auf Anfrage verfügbar.**
+
 
 
 
