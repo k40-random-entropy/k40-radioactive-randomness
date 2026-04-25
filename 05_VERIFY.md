@@ -89,6 +89,7 @@ A measurement is considered reproducible if:
 - CPM values remain within a stable range for the same source  
 - mean and variance match Poisson expectations  
 - the Fano factor is close to 1  
+- the overdispersion Z‑score is within expected statistical limits  
 - the histogram is stable and unimodal  
 - entropy per sample is consistent  
 - no systematic drift is observed  
@@ -100,15 +101,16 @@ A histogram is not included in the delivered results; it can be created by the u
 
 ## 6. Audit Checklist
 
-- Raw data available  
-- Timestamp and CPM values intact  
-- Statistical analysis performed  
+- raw data available  
+- timestamp and CPM values intact  
+- statistical analysis performed  
 - Poisson compatibility verified  
 - Fano factor within expected range  
-- Histogram unimodal  
-- Entropy traceable  
-- No drift detected  
-- Results reproducible  
+- overdispersion Z‑score within expected limits  
+- histogram unimodal  
+- entropy traceable  
+- no drift detected  
+- results reproducible  
 
 ---
 
@@ -203,6 +205,7 @@ Eine Messung gilt als reproduzierbar, wenn:
 - die CPM‑Werte für dieselbe Quelle stabil bleiben  
 - Mittelwert und Varianz dem Poisson‑Modell entsprechen  
 - der Fano‑Faktor nahe 1 liegt  
+- der Overdispersion‑Z‑Score innerhalb der erwarteten statistischen Grenzen liegt  
 - das Histogramm stabil und unimodal ist  
 - die Entropie pro Stichprobe konsistent ist  
 - keine Drift erkennbar ist  
@@ -219,8 +222,10 @@ Ein Histogramm wird nicht mitgeliefert; es kann vom Nutzer jederzeit aus den ber
 - Statistische Analyse durchgeführt  
 - Poisson‑Kompatibilität bestätigt  
 - Fano‑Faktor im erwarteten Bereich  
+- Overdispersion‑Z‑Score innerhalb der erwarteten Grenzen  
 - Histogramm unimodal  
 - Entropie nachvollziehbar  
 - Keine Drift  
-- Ergebnisse reproduzierbar  
+- Ergebnisse reproduzierbar
+ 
 
