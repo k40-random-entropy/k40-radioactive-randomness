@@ -2,31 +2,32 @@
 
 ## Overview
 
-This project investigates the natural radioactivity of potassium‑40 (K‑40) as a source of physical randomness.  
-Using household potassium compounds and a Geiger counter, the project documents measurement routines and statistical behavior of count‑rate‑based entropy.
+This repository documents the generation, analysis, and verification of physical randomness derived from the natural beta decay of potassium‑40 (K‑40).  
+Using household potassium compounds and a Geiger counter, the project provides reproducible CPM time series, statistical analysis methods, and verification procedures.
 
-Each detected beta decay from potassium‑40 is treated as a discrete physical event.  
-The goal is to establish a transparent, empirical foundation for randomness derived from radioactive decay.
+Each detected decay event is treated as a discrete physical event.  
+The goal is to establish a transparent, empirical, and audit‑ready foundation for randomness derived from radioactive decay.
 
-## Purpose
-
-The repository provides:
-
-- A documented measurement procedure for collecting CPM time series  
-- Statistical methods for analyzing radioactive decay data  
-- A reproducible workflow for deriving integer random values from physical events  
-- Verification steps to ensure Poisson compatibility and measurement integrity  
-- A structured, auditable framework for generating and validating physical randomness
+---
 
 ## Repository Structure
 
-- **00_DESCRIPTION.md** — High‑level description of the offering  
-- **01_PRODUCT.md** — Product definition and deliverables  
-- **02_README.md** — Project overview (this file)  
-- **03_STATISTICS.md** — Statistical methods and analysis logic  
-- **04_VERIFY.md** — Source validation and trust mechanisms  
-- **/data/raw/** — Input datasets (raw CPM measurements)  
-- **/data/results/** — Output datasets (processed results)
+- **00_DESCRIPTION.md** — High‑level description of the project  
+- **01_DEVICE.md** — Device characteristics and measurement constraints  
+- **02_MEASUREMENT.md** — Measurement procedure and data acquisition  
+- **03_SETUP.md** — Setup instructions and environment requirements  
+- **04_STATISTICS.md** — Statistical methods and analysis logic  
+- **05_VERIFY.md** — Verification and reproducibility criteria  
+- **06_PRICE_LIST.md** — Price list for measurements and entropy deliveries  
+- **07_ORDER_FORM.md** — Order form for requesting services  
+- **/data/raw/** — Raw CPM datasets  
+- **/data/results/** — Processed datasets and analysis results  
+
+All delivered datasets include a CSV file, a JSON metadata file, and a Minisign signature for integrity verification.
+
+Entropy amounts above 512 bit are available on request.
+
+Contact: **k40-random-entropy@proton.me**
 
 ---
 
@@ -34,31 +35,33 @@ The repository provides:
 
 ## Überblick
 
-Dieses Projekt untersucht die natürliche Radioaktivität von Kalium‑40 (K‑40) als Quelle physikalischer Zufallszahlen.  
-Mit haushaltsüblichen Kaliumverbindungen und einem Geigerzähler werden Messabläufe und statistisches Verhalten der zählratenbasierten Entropie dokumentiert.
+Dieses Repository dokumentiert die Erzeugung, Analyse und Verifikation physikalischer Zufälligkeit aus dem natürlichen Betazerfall von Kalium‑40 (K‑40).  
+Unter Verwendung haushaltsüblicher Kaliumverbindungen und eines Geigerzählers werden reproduzierbare CPM‑Zeitreihen, statistische Methoden und Verifikationsverfahren bereitgestellt.
 
-Jeder detektierte Betazerfall von Kalium‑40 wird als diskretes physikalisches Ereignis behandelt.  
-Ziel ist es, eine transparente, empirische Grundlage für aus radioaktivem Zerfall abgeleitete Zufälligkeit zu schaffen.
+Jeder registrierte Zerfall wird als diskretes physikalisches Ereignis behandelt.  
+Ziel ist eine transparente, empirische und auditierbare Grundlage für aus radioaktivem Zerfall abgeleitete Zufälligkeit.
 
-## Zweck
-
-Das Repository stellt bereit:
-
-- Eine dokumentierte Messprozedur zur Erfassung von CPM‑Zeitreihen  
-- Statistische Methoden zur Analyse radioaktiver Zerfallsdaten  
-- Einen reproduzierbaren Workflow zur Ableitung ganzzahliger Zufallswerte aus physikalischen Ereignissen  
-- Verifikationsschritte zur Sicherstellung von Poisson‑Kompatibilität und Messintegrität  
-- Einen strukturierten, auditierbaren Rahmen zur Erzeugung und Validierung physikalischer Zufälligkeit
+---
 
 ## Repository‑Struktur
 
-- **00_DESCRIPTION.md** — Beschreibung des Angebots  
-- **01_PRODUCT.md** — Produktdefinition und Lieferumfang  
-- **02_README.md** — Projektüberblick (diese Datei)  
-- **03_STATISTICS.md** — Statistische Methoden und Analyseverfahren  
-- **04_VERIFY.md** — Quellenvalidierung und Vertrauensmechanismen  
-- **/data/raw/** — Eingabedaten (rohe CPM‑Messungen)  
-- **/data/results/** — Ausgabedaten (verarbeitete Ergebnisse)
+- **00_DESCRIPTION.md** — Beschreibung des Projekts  
+- **01_DEVICE.md** — Geräteeigenschaften und Messgrenzen  
+- **02_MEASUREMENT.md** — Messprozedur und Datenerfassung  
+- **03_SETUP.md** — Setup‑Anleitung und Umgebungsanforderungen  
+- **04_STATISTICS.md** — Statistische Methoden und Analyseverfahren  
+- **05_VERIFY.md** — Verifikation und Reproduzierbarkeitskriterien  
+- **06_PRICE_LIST.md** — Preisliste für Messungen und Entropielieferungen  
+- **07_ORDER_FORM.md** — Bestellformular für Dienstleistungen  
+- **/data/raw/** — Rohe CPM‑Datensätze  
+- **/data/results/** — Verarbeitete Datensätze und Analyseergebnisse  
+
+Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatendatei und eine Minisign‑Signatur zur Integritätsprüfung.
+
+Entropiemengen über 512 Bit sind auf Anfrage verfügbar.
+
+Kontakt: **k40-random-entropy@proton.me**
+
 
 
 
