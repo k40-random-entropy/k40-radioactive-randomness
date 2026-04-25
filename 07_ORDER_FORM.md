@@ -55,11 +55,14 @@ No prepayment is required.
 
 By submitting this order, you acknowledge the following:
 
-- You have a **14‑day right of withdrawal** under EU consumer law.  
-- The right of withdrawal **expires early** once you explicitly request that the service begins before the end of the withdrawal period.  
+- You have a 14‑day right of withdrawal under EU consumer law.  
+- The right of withdrawal expires early once you explicitly request that the service begins before the end of the withdrawal period.  
 - By checking the box below, you request immediate execution and agree that the withdrawal right expires once the measurement or entropy generation has started.
 
 - [ ] I request immediate execution of the service and acknowledge the early expiry of the withdrawal right.
+
+(This withdrawal clause is based on Article 16(m) of Directive 2011/83/EU and its national implementation, including §356(5) BGB.)
+
 
 ---
 
@@ -120,11 +123,14 @@ Eine Vorauszahlung ist nicht erforderlich.
 
 Mit Absenden dieser Bestellung bestätigen Sie:
 
-- Sie haben ein **14‑tägiges Widerrufsrecht** nach EU‑Recht.  
-- Das Widerrufsrecht **erlischt vorzeitig**, wenn Sie ausdrücklich wünschen, dass die Dienstleistung vor Ablauf der Widerrufsfrist beginnt.  
+- Sie haben ein 14‑tägiges Widerrufsrecht nach EU‑Recht.  
+- Das Widerrufsrecht erlischt vorzeitig, wenn Sie ausdrücklich wünschen, dass die Dienstleistung vor Ablauf der Widerrufsfrist beginnt.  
 - Durch Ankreuzen der folgenden Option verlangen Sie die sofortige Ausführung und stimmen dem vorzeitigen Erlöschen des Widerrufsrechts zu.
 
 - [ ] Ich verlange die sofortige Ausführung der Dienstleistung und bestätige das vorzeitige Erlöschen des Widerrufsrechts.
+
+(Diese Widerrufsklausel basiert auf Art. 16 lit. m der Richtlinie 2011/83/EU sowie deren nationaler Umsetzung, insbesondere § 356 Abs. 5 BGB.)
+
 
 
 
