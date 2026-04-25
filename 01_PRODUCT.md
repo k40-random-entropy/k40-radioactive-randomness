@@ -13,7 +13,7 @@ Two product types are available:
 2. Random numbers matching a specified entropy level  
    A dataset of physical random numbers is delivered whose statistical entropy reaches or exceeds the requested value.
 
-## What users can receive
+## ## What users can request
 
 - A defined set of physically generated integer random values  
 - Random numbers with a guaranteed minimum entropy  
@@ -84,7 +84,7 @@ Es stehen zwei Produktvarianten zur Verfügung:
 2. Zufallszahlen mit definierter Entropie  
    Es wird eine Menge physikalischer Zufallszahlen geliefert, deren statistische Entropie einen vorgegebenen Wert mindestens erreicht oder übertrifft.
 
-## Was Nutzer erhalten können
+## ## Was Nutzer anfordern können
 
 - Eine definierte Menge physikalisch erzeugter ganzzahliger Zufallswerte  
 - Zufallszahlen mit garantierter Mindestentropie  
