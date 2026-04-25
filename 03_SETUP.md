@@ -32,7 +32,7 @@ The procedure ensures reproducibility, transparency, and consistent data quality
 2. The potassium‑40 source is placed in the defined position.  
 3. The CPM time series is recorded over the full measurement duration.  
 4. The measurement may include planned interruptions for saving and restarting the recording software.  
-   These interruptions do not affect the statistical validity of the CPM time series  
+   These interruptions only create gaps in the time series and **do not affect the statistical validity**  
    as long as the physical setup (detector position, source position, distance, shielding) remains unchanged.  
    Any change in the physical setup would become immediately visible in the Poisson distribution.  
 5. After completion, the CPM data is exported in raw numerical form.
@@ -94,7 +94,7 @@ Das Verfahren stellt Reproduzierbarkeit, Transparenz und gleichbleibende Datenqu
 2. Die Kalium‑40‑Quelle wird in die definierte Position gebracht.  
 3. Die CPM‑Zeitreihe wird über die gesamte Messdauer aufgezeichnet.  
 4. Die Messung kann geplante Unterbrechungen zum Speichern und Neustarten der Aufzeichnungssoftware enthalten.  
-   Diese Unterbrechungen beeinträchtigen die statistische Gültigkeit der CPM‑Zeitreihe nicht,  
+   Diese Unterbrechungen erzeugen lediglich **Lücken in der Zeitreihe**, beeinträchtigen jedoch **nicht die statistische Gültigkeit**,  
    solange der physische Aufbau (Detektorposition, Quellenposition, Abstand, Abschirmung) unverändert bleibt.  
    Änderungen am Aufbau würden sich unmittelbar in der Poisson‑Verteilung bemerkbar machen.  
 5. Nach Abschluss wird die CPM‑Zeitreihe unverändert exportiert.
@@ -119,3 +119,4 @@ Nach der Verarbeitung erhalten Nutzer:
 - maschinenlesbare Ergebnisdateien (CSV oder JSON)
 
 Alle Ergebnisse entsprechen der Messung, die mit dem oben beschriebenen Aufbau durchgeführt wurde.
+
