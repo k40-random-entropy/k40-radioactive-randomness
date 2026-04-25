@@ -1,7 +1,16 @@
 # Price List – Radioactivity Measurement & Entropy Delivery Service
 
-This service provides two distinct classes of deliverables.  
-All deliveries include data files and a digital signature for integrity verification.
+This service provides two classes of deliverables. All data is generated from
+CPM time series measured with a GMC‑500+, and every delivery includes full
+statistical analysis and three files: All deliveries include three files:
+
+- CSV data file  
+- JSON metadata file  
+- Minisign signature file (for integrity verification)
+
+
+### Included analysis (for all deliveries)
+The full statistical analysis is described in detail in the file **04_STATISTICS.md**.
 
 ---
 
@@ -14,9 +23,9 @@ measurements performed with a GMC‑500+.
 
 | Service | Description | Price |
 |---------|-------------|--------|
-| **10‑minute measurement** | CPM time series + statistical analysis | **€9** |
-| **30‑minute measurement** | Includes histogram and entropy analysis | **€19** |
-| **60‑minute measurement** | Full analysis incl. variance, entropy, PDF report | **€29** |
+| **10‑minute measurement** | CPM time series + full statistical analysis | **€9** |
+| **30‑minute measurement** | CPM time series + full statistical analysis | **€19** |
+| **60‑minute measurement** | CPM time series + full statistical analysis | **€29** |
 
 ## Measurement Series
 
@@ -24,12 +33,6 @@ measurements performed with a GMC‑500+.
 |---------|-------------|--------|
 | **10 × 10‑minute series** | Comparative studies | **€79** |
 | **10 × 60‑minute series** | Long‑term statistical analysis | **€199** |
-
-## Analysis Packages
-
-| Package | Content | Price |
-|---------|---------|--------|
-| **Basic Analysis Package** | Includes the following statistical metrics: Average CPM (λ) 17.8, Variance 29.1, Variance‑to‑Mean Ratio 1.632958801, Overdispersion Z‑Score 1.342708382, Poisson Test: OK, Total Entropy 28.5 | Included |
 
 ---
 
@@ -46,3 +49,5 @@ All statistical metrics and data files are included.
 | **Entropy 256** | ≥ 256 bit | **€25** |
 | **Entropy 312** | ≥ 312 bit | **€29** |
 | **Entropy 512** | ≥ 512 bit | **€39** |
+
+
