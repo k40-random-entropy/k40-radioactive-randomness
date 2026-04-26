@@ -1,5 +1,6 @@
-Radioactive Randomness from K‑40 Beta Decay — Physical RNG with Poisson Statistics and Entropy Analysis<br>
-Radioaktive Zufallszahlen aus K‑40‑Betazerfall — Physikalischer RNG mit Poisson‑Statistik und Entropieanalyse
+Radioactive Randomness from K‑40 Beta Decay — Physical RNG using Poisson Statistics and Entropy Analysis<br>
+Radioaktive Zufallszahlen aus dem K‑40‑Betazerfall — Physikalischer RNG mit Poisson‑Statistik und Entropieanalyse
+
   
 
 # K‑40 Radioactive Randomness
