@@ -34,13 +34,22 @@ This structure allows users to verify the origin, quality, and statistical behav
 
 ## Repository Structure
 
-- 00_DESCRIPTION.md — Overview and purpose  
-- 01_PRODUCT.md — Product definition  
-- 02_SETUP.md — Measurement procedure  
-- 03_STATISTICS.md — Statistical methods  
-- 04_VERIFY.md — Source validation logic  
-- /data/raw/ — Input datasets  
-- /data/results/ — Output datasets
+00_DESCRIPTION.md — Overview and purpose<br>
+01_PRODUCT.md — Product definition<br>
+02_SETUP.md — Measurement procedure<br>
+03_STATISTICS.md — Statistical methods<br>
+04_VERIFY.md — Source validation logic<br>
+05_PRICE_LIST.md — Pricing information<br>
+06_ORDER_FORM.md — Customer order form<br>
+07_README.md — Project README<br>
+08_DELIVERY_SECURITY.md — Secure delivery and signature policy<br>
+LICENSE — Project license<br>
+sample_class1_Werte.json — Sample dataset (class 1)<br>
+sample_class1_Werte.json.minisig — Minisign signature for class 1 JSON<br>
+sample_class1_Werte.txt — Sample text export (class 1)<br>
+sample_class2_Entropie.json — Sample dataset (class 2)<br>
+sample_class2_Entropie.json.minisig — Minisign signature for class 2 JSON<br>
+sample_class2_Entropie.txt — Sample text export (class 2)
 
 
 
