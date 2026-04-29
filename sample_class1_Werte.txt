@@ -1,0 +1,17 @@
+﻿Kennzahl	Wert
+Anzahl Werte	100
+Durchschnittliche CPM (λ)	52,05
+Varianz	52,0479797979798
+Varianz/Mittelwert	0,999961187281072
+Z-Score (Overdispersion)	-2,73071682811613E-04
+Poisson-Test	OK (Poisson-kompatibel)
+Gesamtentropie	456,540056587341
+Qualität	exzellent
+
+
+CPM-Wert
+46
+47
+77
+45
+…
