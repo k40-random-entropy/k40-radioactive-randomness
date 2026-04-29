@@ -17,16 +17,22 @@ The goal is to establish a transparent, empirical, and audit‑ready foundation 
 
 ## Repository Structure
 
-- **00_DESCRIPTION.md** — High‑level description of the project  
-- **01_PRODUCT.md** — Product definition and deliverables  
-- **02_README.md** — Repository overview (this file)  
-- **03_SETUP.md** — Setup instructions and environment requirements  
-- **04_STATISTICS.md** — Statistical methods and analysis logic  
-- **05_VERIFY.md** — Verification and reproducibility criteria  
-- **06_PRICE_LIST.md** — Price list for measurements and entropy deliveries  
-- **07_ORDER_FORM.md** — Order form for requesting services  
-- **/data/raw/** — Raw CPM datasets  
-- **/data/results/** — Processed datasets and analysis results  
+00_DESCRIPTION.md — Overview and purpose<br>
+01_PRODUCT.md — Product definition<br>
+02_SETUP.md — Measurement procedure<br>
+03_STATISTICS.md — Statistical methods<br>
+04_VERIFY.md — Source validation logic<br>
+05_PRICE_LIST.md — Pricing information<br>
+06_ORDER_FORM.md — Customer order form<br>
+07_README.md — Project README<br>
+08_DELIVERY_SECURITY.md — Secure delivery and signature policy<br>
+LICENSE — Project license<br>
+sample_class1_Werte.json — Sample dataset (class 1)<br>
+sample_class1_Werte.json.minisig — Minisign signature for class 1 JSON<br>
+sample_class1_Werte.txt — Sample text export (class 1)<br>
+sample_class2_Entropie.json — Sample dataset (class 2)<br>
+sample_class2_Entropie.json.minisig — Minisign signature for class 2 JSON<br>
+sample_class2_Entropie.txt — Sample text export (class 2)
 
 All delivered datasets include a CSV file, a JSON metadata file, and a Minisign signature for integrity verification.
 
