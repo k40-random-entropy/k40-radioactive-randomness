@@ -5,7 +5,7 @@ All deliveries include three files: a CSV data file, a JSON metadata file, and a
 
 ---
 
-# 1. Class: Single Measurements (Basic Package – €350)
+# 1. Class: Single Measurements
 
 These services provide CPM time series and statistical analysis based on measurements performed with a GMC‑500+.
 
@@ -17,12 +17,6 @@ These services provide CPM time series and statistical analysis based on measure
 | **30‑minute measurement** | CPM time series + statistical analysis | **€180** |
 | **60‑minute measurement** | CPM time series + statistical analysis | **€240** |
 
-## Measurement Series
-
-| Service | Description | Price |
-|--------|-------------|-------|
-| **10 × 10‑minute series** | Comparative studies | **€320** |
-| **10 × 60‑minute series** | Long‑term statistical analysis | **€480** |
 
 ---
 
@@ -48,7 +42,7 @@ Alle Lieferungen enthalten drei Dateien: eine CSV‑Datendatei, eine JSON‑Meta
 
 ---
 
-# 1. Klasse: Einzelmessungen (Basic Package – 350 €)
+# 1. Klasse: Einzelmessungen 
 
 Diese Leistungen liefern CPM‑Zeitreihen und statistische Auswertungen basierend auf Messungen mit einem GMC‑500+.
 
@@ -60,12 +54,6 @@ Diese Leistungen liefern CPM‑Zeitreihen und statistische Auswertungen basieren
 | **30‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **180 €** |
 | **60‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **240 €** |
 
-## Messreihen
-
-| Service | Beschreibung | Preis |
-|--------|--------------|--------|
-| **10 × 10‑Minuten‑Messungen** | Vergleichsstudien | **320 €** |
-| **10 × 60‑Minuten‑Messungen** | Langzeit‑Statistik | **480 €** |
 
 ---
 
