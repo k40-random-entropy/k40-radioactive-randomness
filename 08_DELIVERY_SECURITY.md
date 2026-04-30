@@ -19,7 +19,7 @@ This guarantees that the file originates from the project owner and has not been
 
 If the customer provides a PGP public key (e.g., generated with Gpg4win/Kleopatra), all files and short messages can be encrypted directly for that key.
 
-This enables full end‑to‑end encryption without passwords and without any shared secrets.
+This enables full end‑to‑end encryption.
 
 Encrypted content may include:
 
@@ -30,11 +30,12 @@ Encrypted content may include:
 
 ## Customer Workflow
 
-1. Customer sends their PGP public key to the project owner.  
-2. The project owner encrypts files and/or text directly for that key.  
-3. The customer decrypts the data locally using their private key.
+1. The customer sends their PGP public key to the project owner.
+2. The project owner encrypts the ZIP file using AES‑256 encryption.
+3. The project owner encrypts the AES‑256 key with the customer’s PGP public key.
+4. The project owner sends the ZIP file and the encrypted AES‑256 key to the email address specified by the customer.
+5. The customer decrypts the data locally using their private key.
 
-This workflow eliminates the need for password transmission.
 
 ## Supported Key Types
 
@@ -68,11 +69,13 @@ minisign -Vm Datei.json -p publickey.txt
 
 Dies garantiert, dass die Datei vom Projektinhaber stammt und nicht verändert wurde.
 
+Alle drei Dateien werden als eine zip-Datei gesendet.
+
 ## Vertraulichkeit: Public‑Key‑Verschlüsselung
 
 Stellt der Kunde einen PGP‑Public‑Key bereit (z. B. erzeugt mit Gpg4win/Kleopatra), können Dateien und kurze Texte direkt für diesen Schlüssel verschlüsselt werden.
 
-Dies ermöglicht vollständige Ende‑zu‑Ende‑Verschlüsselung ohne Passwörter und ohne gemeinsame Geheimnisse.
+Dies ermöglicht vollständige Ende‑zu‑Ende‑Verschlüsselung.
 
 Verschlüsselbar sind:
 
@@ -84,10 +87,10 @@ Verschlüsselbar sind:
 ## Ablauf für den Kunden
 
 1. Der Kunde sendet seinen PGP‑Public‑Key an den Projektinhaber.  
-2. Der Projektinhaber verschlüsselt Dateien und/oder Text direkt für diesen Schlüssel.  
-3. Der Kunde entschlüsselt die Daten lokal mit seinem privaten Schlüssel.
-
-Damit entfällt die Übermittlung von Passwörtern vollständig.
+2. Der Projektinhaber verschlüsselt die zip-Datei mit AES256-Verschlüsselung.
+3. Der Projektinhaber verschlüsselt den AES-256 - Schlüssel mit dem PGP‑Public‑Key des Kunden.
+4. Der Projektinhaber sendet die zip-Datei und den verschlüsselten AES-256 - Schlüssel an die vom Kunden angegebende Email-Adresse.
+6. Der Kunde entschlüsselt die Daten lokal mit seinem privaten Schlüssel.
 
 ## Unterstützte Schlüsseltypen
 
