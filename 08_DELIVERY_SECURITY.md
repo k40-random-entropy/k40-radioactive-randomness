@@ -15,7 +15,7 @@ minisign -Vm file.json -p publickey.txt<br>
 
 This guarantees that the file originates from the project owner and has not been modified.
 
-## Confidentiality: Public‑Key Encryption
+## Confidentiality: Public‑Key Encryption (Option)
 
 If the customer provides a PGP public key (e.g., generated with Gpg4win/Kleopatra), all files and short messages can be encrypted directly for that key.
 
@@ -71,7 +71,7 @@ Dies garantiert, dass die Datei vom Projektinhaber stammt und nicht verändert w
 
 Alle drei Dateien werden als eine zip-Datei gesendet.
 
-## Vertraulichkeit: Public‑Key‑Verschlüsselung
+## Vertraulichkeit: Public‑Key‑Verschlüsselung (Option)
 
 Stellt der Kunde einen PGP‑Public‑Key bereit (z. B. erzeugt mit Gpg4win/Kleopatra), können Dateien und kurze Texte direkt für diesen Schlüssel verschlüsselt werden.
 
@@ -87,9 +87,9 @@ Verschlüsselbar sind:
 ## Ablauf für den Kunden
 
 1. Der Kunde sendet seinen PGP‑Public‑Key an den Projektinhaber.  
-2. Der Projektinhaber verschlüsselt die zip-Datei mit AES256-Verschlüsselung.
-3. Der Projektinhaber verschlüsselt den AES-256 - Schlüssel mit dem PGP‑Public‑Key des Kunden.
-4. Der Projektinhaber sendet die zip-Datei und den verschlüsselten AES-256 - Schlüssel an die vom Kunden angegebende Email-Adresse.
+2. Der Projektinhaber verschlüsselt die ZIP-Datei mit AES‑256‑Verschlüsselung.
+3. Der Projektinhaber verschlüsselt den AES-256-Schlüssel mit dem PGP‑Public‑Key des Kunden.
+4. Der Projektinhaber sendet die ZIP-Datei und den verschlüsselten AES-256-Schlüssel an die vom Kunden angegebende Email-Adresse.
 6. Der Kunde entschlüsselt die Daten lokal mit seinem privaten Schlüssel.
 
 ## Unterstützte Schlüsseltypen
