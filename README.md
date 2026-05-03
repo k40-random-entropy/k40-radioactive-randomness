@@ -17,14 +17,14 @@ The goal is to establish a transparent, empirical, and audit‑ready foundation 
 
 ## Repository Structure
 
+README.md — Project README<br>
 00_DESCRIPTION.md — Overview and purpose<br>
 01_PRODUCT.md — Product definition<br>
-02_SETUP.md — Measurement procedure<br>
-03_STATISTICS.md — Statistical methods<br>
-04_VERIFY.md — Source validation logic<br>
-05_PRICE_LIST.md — Pricing information<br>
-06_ORDER_FORM.md — Customer order form<br>
-07_README.md — Project README<br>
+03_SETUP.md — Measurement procedure<br>
+43_STATISTICS.md — Statistical methods<br>
+05_VERIFY.md — Source validation logic<br>
+06_PRICE_LIST.md — Pricing information<br>
+07_ORDER_FORM.md — Customer order form<br>
 08_DELIVERY_SECURITY.md — Secure delivery and signature policy<br>
 LICENSE — Project license<br>
 sample_class1_Werte.json — Sample dataset (class 1)<br>
