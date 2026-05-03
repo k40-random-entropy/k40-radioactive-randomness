@@ -55,17 +55,7 @@ Ziel ist eine transparente, empirische und auditierbare Grundlage für aus radio
 
 ## Repository‑Struktur
 
-- **README.md** — Übersicht über das Repository (diese Datei)  
-- **00_DESCRIPTION.md** — Beschreibung des Projekts  
-- **01_PRODUCT.md** — Produktdefinition und Lieferumfang  
-- **03_SETUP.md** — Setup‑Anleitung und Umgebungsanforderungen  
-- **04_STATISTICS.md** — Statistische Methoden und Analyseverfahren  
-- **05_VERIFY.md** — Verifikation und Reproduzierbarkeitskriterien  
-- **06_PRICE_LIST.md** — Preisliste für Messungen und Entropielieferungen  
-- **07_ORDER_FORM.md** — Bestellformular für Dienstleistungen
-- **08_DELIVERY_SECURITY.md** — Secure delivery and signature policy<br> 
-- **/data/raw/** — Rohe CPM‑Datensätze  
-- **/data/results/** — Verarbeitete Datensätze und Analyseergebnisse  
+siehe oben
 
 Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatendatei und eine Minisign‑Signatur zur Integritätsprüfung.
 
