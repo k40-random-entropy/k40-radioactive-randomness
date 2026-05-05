@@ -62,6 +62,16 @@ Ziel ist eine transparente, empirische und auditierbare Grundlage für aus radio
 
 ---
 
+## Qualitätsprüfung — PTG.2‑Stationaritätstest
+Zur Überprüfung der statistischen Stabilität der CPM‑Zeitreihe wurden die Rohdaten dem BSI‑PTG.2‑Stationaritätstest unterzogen (Chi‑Quadrat‑Blockvergleich gemäß Bundesamt für Sicherheit in der Informationstechnik).
+
+Der Test bestätigt, dass alle Datenblöcke statistisch mit dem Referenzblock übereinstimmen.
+Ergebnis: Der Datensatz besteht den PTG.2‑Stationaritätstest.
+
+Dies belegt, dass die radioaktive Quelle während der Messung als stabiler physikalischer Prozess ohne erkennbare Drift arbeitet.
+
+---
+
 ## Repository‑Struktur
 
 siehe oben
