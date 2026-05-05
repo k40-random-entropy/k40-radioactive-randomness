@@ -81,7 +81,15 @@ Long‑term deviations from the mean indicate:
 Autocorrelation is not used, because CPM values represent independent 60‑second samples.
 
 ---
+### 4.6 PTG.2 Stationarity Test (BSI)
+To verify long‑term statistical stability, the raw CPM data were subjected to the BSI PTG.2 stationarity test (Chi‑square block comparison according to the German Federal Office for Information Security).
 
+The test confirms that all data blocks are statistically consistent with the reference block.
+Result: The dataset passes the PTG.2 stationarity test.
+
+This demonstrates that the radioactive decay source behaves as a stable physical process without detectable drift over the measurement period.
+
+---
 ## 5. Reproducibility Criteria
 
 A measurement is considered reproducible if:
