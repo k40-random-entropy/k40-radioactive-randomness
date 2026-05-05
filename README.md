@@ -13,7 +13,7 @@ Using household potassium compounds and a Geiger counter, the project provides C
 Each detected decay event is treated as a discrete physical event.  
 The goal is to establish a transparent, empirical, and audit‑ready foundation for randomness derived from radioactive decay.
 
-The statistical quality of the raw CPM data has been evaluated using the BSI PTG.2 stationarity test; details are documented in 05_VERIFY.md.
+The statistical quality of the raw CPM data has been successfully evaluated using the BSI PTG.2 stationarity test; details are documented in 05_VERIFY.md.
 
 ---
 
@@ -53,15 +53,7 @@ Unter Verwendung haushaltsüblicher Kaliumverbindungen und eines Geigerzählers 
 Jeder registrierte Zerfall wird als diskretes physikalisches Ereignis behandelt.  
 Ziel ist eine transparente, empirische und auditierbare Grundlage für aus radioaktivem Zerfall abgeleitete Zufälligkeit.
 
----
-
-## Qualitätsprüfung — PTG.2‑Stationaritätstest
-Zur Überprüfung der statistischen Stabilität der CPM‑Zeitreihe wurden die Rohdaten dem BSI‑PTG.2‑Stationaritätstest unterzogen (Chi‑Quadrat‑Blockvergleich gemäß Bundesamt für Sicherheit in der Informationstechnik).
-
-Der Test bestätigt, dass alle Datenblöcke statistisch mit dem Referenzblock übereinstimmen.
-Ergebnis: Der Datensatz besteht den PTG.2‑Stationaritätstest.
-
-Dies belegt, dass die radioaktive Quelle während der Messung als stabiler physikalischer Prozess ohne erkennbare Drift arbeitet.
+Die statistische Qualität der Rohdaten wurde mit dem BSI‑PTG.2‑Stationaritätstest erfolgreich geprüft; Details finden sich in 05_VERIFY.md.
 
 ---
 
