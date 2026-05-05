@@ -14,6 +14,15 @@ Each detected decay event is treated as a discrete physical event.
 The goal is to establish a transparent, empirical, and audit‑ready foundation for randomness derived from radioactive decay.
 
 ---
+##  Quality Verification — PTG.2 Stationarity Test
+To verify the statistical stability of the radioactive decay time series, the raw CPM data were subjected to the BSI PTG.2 stationarity test (Chi‑square block comparison according to the German Federal Office for Information Security).
+
+The test confirms that all data blocks are statistically consistent with the reference block.
+Result: The dataset passes the PTG.2 stationarity test.
+
+This demonstrates that the radioactive decay source behaves as a stable physical process without detectable drift over the measurement period.
+
+---
 
 ## Repository Structure
 
