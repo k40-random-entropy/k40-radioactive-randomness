@@ -80,7 +80,6 @@ Long‑term deviations from the mean indicate:
 
 Autocorrelation is not used, because CPM values represent independent 60‑second samples.
 
----
 ### 4.6 PTG.2 Stationarity Test (BSI)
 To verify long‑term statistical stability, the raw CPM data were subjected to the BSI PTG.2 stationarity test (Chi‑square block comparison according to the German Federal Office for Information Security).
 
@@ -203,6 +202,14 @@ Langfristige Abweichungen vom Mittelwert weisen auf:
 - Umwelteinflüsse  
 
 Autokorrelation wird nicht verwendet, da CPM‑Werte unabhängige Stichproben darstellen.
+
+### 4.6 PTG.2‑Stationaritätstest (BSI)
+Zur Überprüfung der langfristigen statistischen Stabilität wurden die Rohdaten dem BSI‑PTG.2‑Stationaritätstest unterzogen (Chi‑Quadrat‑Blockvergleich gemäß Bundesamt für Sicherheit in der Informationstechnik).
+
+Der Test bestätigt, dass alle Datenblöcke statistisch mit dem Referenzblock übereinstimmen.
+Ergebnis: Der Datensatz besteht den PTG.2‑Stationaritätstest.
+
+Dies belegt, dass die radioaktive Quelle während der Messung als stabiler physikalischer Prozess ohne erkennbare Drift arbeitet.
 
 ---
 
