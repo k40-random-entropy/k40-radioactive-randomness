@@ -13,7 +13,7 @@ All results are accompanied by statistical evaluations and a signed certificate 
 
 The repository documents:
 
-- how physical randomness is derived from K‑40 beta decay  
+- how physical randomness is derived from K40 beta decay  
 - how measurement data is validated and checked for Poisson compatibility  
 - how statistical properties such as variance, entropy, and overdispersion are analyzed  
 - how users receive certified integer random numbers and supporting documentation  
@@ -69,7 +69,7 @@ Alle Ergebnisse werden durch statistische Auswertungen und ein signiertes Analys
 
 Das Repository dokumentiert:
 
-- wie physikalische Zufallszahlen aus K‑40‑Betazerfall gewonnen werden  
+- wie physikalische Zufallszahlen aus K40‑Betazerfall gewonnen werden  
 - wie Messdaten validiert und auf Poisson‑Kompatibilität geprüft werden  
 - wie statistische Eigenschaften wie Varianz, Entropie und Overdispersion analysiert werden  
 - wie Nutzer zertifizierte Zufallszahlen und begleitende Dokumentation erhalten  
