@@ -1,6 +1,6 @@
-# STATISTICS — Statistical Analysis of K‑40 Decay Measurements
+# STATISTICS — Statistical Analysis of K40 Decay Measurements
 
-This document describes the statistical methods used to analyze the radioactive decay data generated from Potassium‑40 (K‑40).  
+This document describes the statistical methods used to analyze the radioactive decay data generated from Potassium‑40 (K40).  
 The goal is to validate the randomness, stability, and entropy of the measured decay events.
 
 ---
@@ -123,7 +123,7 @@ These criteria ensure that the dataset reflects true radioactive decay behavior.
 
 # STATISTIK — Analyse der K‑40‑Zerfallsdaten
 
-Dieses Dokument beschreibt die statistischen Methoden zur Analyse der durch Kalium‑40 (K‑40) erzeugten Zerfallsdaten.  
+Dieses Dokument beschreibt die statistischen Methoden zur Analyse der durch Kalium‑40 (K40) erzeugten Zerfallsdaten.  
 Ziel ist die Validierung der Zufälligkeit, Stabilität und Entropie der gemessenen Ereignisse.
 
 ---
