@@ -3,7 +3,7 @@ Radioaktive Zufallszahlen aus dem K‑40‑Betazerfall — Physikalischer RNG mi
 
   
 
-# K‑40 Radioactive Randomness
+# K40 Radioactive Randomness
 
 ## Overview
 
@@ -43,7 +43,7 @@ Contact: **k40-random-entropy@proton.me**
 
 ---
 
-# K‑40 Radioaktive Zufälligkeit (Deutsch)
+# K40 Radioaktive Zufälligkeit (Deutsch)
 
 ## Überblick
 
@@ -65,7 +65,7 @@ Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatenda
 
 
 Kontakt: **k40-random-entropy@proton.me**
-<!-- updated 2026-05-08 -->
+<!-- updated 2026-05-10 -->
 
 
 
