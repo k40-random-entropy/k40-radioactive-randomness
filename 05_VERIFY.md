@@ -1,13 +1,13 @@
 # VERIFY — Reproducible Verification of Measurement Data
 
 This document describes how each measurement, dataset, and statistical analysis in this project can be independently verified.  
-The goal is to provide a transparent, audit‑ready foundation for all results derived from K‑40 decay events.
+The goal is to provide a transparent, audit‑ready foundation for all results derived from K40 decay events.
 
 ---
 
 ## 1. Physical Basis
 
-All measurements are based on the natural beta decay of potassium‑40 (K‑40).  
+All measurements are based on the natural beta decay of potassium‑40 (K40).  
 Each detected decay event is a discrete physical event.  
 Radioactive decay follows a Poisson process, and therefore the statistical properties of the data must match the Poisson model.
 
