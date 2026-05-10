@@ -1,5 +1,5 @@
-Radioactive Randomness from K‑40 Beta Decay — Physical RNG using Poisson Statistics and Entropy Analysis<br>
-Radioaktive Zufallszahlen aus dem K‑40‑Betazerfall — Physikalischer RNG mit Poisson‑Statistik und Entropieanalyse
+Radioactive Randomness from K40 Beta Decay — Physical RNG using Poisson Statistics and Entropy Analysis<br>
+Radioaktive Zufallszahlen aus dem K40‑Betazerfall — Physikalischer RNG mit Poisson‑Statistik und Entropieanalyse
 
   
 
@@ -7,7 +7,7 @@ Radioaktive Zufallszahlen aus dem K‑40‑Betazerfall — Physikalischer RNG mi
 
 ## Overview
 
-This repository documents the generation, analysis, and verification of physical randomness derived from the natural beta decay of potassium‑40 (K‑40).  
+This repository documents the generation, analysis, and verification of physical randomness derived from the natural beta decay of potassium‑40 (K40).  
 Using household potassium compounds and a Geiger counter, the project provides CPM time series, statistical analysis methods, and verification procedures.
 
 Each detected decay event is treated as a discrete physical event.  
@@ -47,7 +47,7 @@ Contact: **k40-random-entropy@proton.me**
 
 ## Überblick
 
-Dieses Repository dokumentiert die Erzeugung, Analyse und Verifikation physikalischer Zufälligkeit aus dem natürlichen Betazerfall von Kalium‑40 (K‑40).  
+Dieses Repository dokumentiert die Erzeugung, Analyse und Verifikation physikalischer Zufälligkeit aus dem natürlichen Betazerfall von Kalium‑40 (K40).  
 Unter Verwendung haushaltsüblicher Kaliumverbindungen und eines Geigerzählers werden CPM‑Zeitreihen, statistische Methoden und Verifikationsverfahren bereitgestellt.
 
 Jeder registrierte Zerfall wird als diskretes physikalisches Ereignis behandelt.  
