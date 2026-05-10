@@ -18,7 +18,7 @@ These services provide CPM time series and statistical analysis based on measure
 | **10‑minute measurement** | CPM time series + statistical analysis | **€120** |
 | **30‑minute measurement** | CPM time series + statistical analysis | **€180** |
 | **60‑minute measurement** | CPM time series + statistical analysis | **€240** |
-| **Custom‑duration measurement** | e.g., 200 CPM time series + statistical analysis| **€350** |
+| **Custom‑duration measurement** | e.g., 200 CPM time series + statistical analysis| **from €350** |
 
 
 
@@ -57,7 +57,7 @@ Diese Leistungen liefern CPM‑Zeitreihen und statistische Auswertungen basieren
 | **10‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **120 €** |
 | **30‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **180 €** |
 | **60‑Minuten‑Messung** | CPM‑Zeitreihe + statistische Analyse | **240 €** |
-| **Kundenspezifische Messdauer** | z.B. 200‑Minuten‑Messung) | **€350** |
+| **Kundenspezifische Messdauer** | z.B. 200‑Minuten‑Messung) | **ab €350** |
 
 
 
