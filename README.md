@@ -65,7 +65,7 @@ Alle gelieferten Datensätze enthalten eine CSV‑Datei, eine JSON‑Metadatenda
 
 
 Kontakt: **k40-random-entropy@proton.me**
-<!-- updated 2026-05-10 -->
+<!-- updated 2026-05-12 -->
 
 
 
